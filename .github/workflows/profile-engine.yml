@@ -1,13 +1,21 @@
 name: Profile Engine 24/7
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  Always Active engine:
-#   • Every 8 hours: regenerates the contribution snake + refreshes the
-#     heartbeat block in README.md and .heartbeat.
-#   • Each heartbeat commit counts as repository activity, which prevents
-#     GitHub from disabling this scheduled workflow after 60 days of
-#     inactivity.
-#   • Bot commits carry [skip ci] so the push trigger can never loop.
+#  PROFILE ENGINE v4.0 · pixel / arcade edition
+#
+#  One sequential job, one source of truth:
+#   1. Reads the real public contribution graph.
+#   2. Generates the snake and publishes the raw copy to the output branch.
+#   3. Regenerates the framed snake and the real contributions panel.
+#   4. Injects the real heartbeat into README.md and .heartbeat.
+#   5. Pushes everything to main with a safe retry.
+#
+#  Why one job? The old version had two jobs pushing to main at the same time.
+#  This version removes that race. Generated data is deterministic; the only
+#  variable is the timestamp, and that is exactly what keeps the engine alive.
+#
+#  Public data only. No private repositories, no hardware details, no
+#  invented metrics.
 # ─────────────────────────────────────────────────────────────────────────────
 
 on:
@@ -29,39 +37,12 @@ env:
   TZ: America/Bogota
 
 jobs:
-  # ── 1. Contribution snake ──────────────────────────────────────────────────
-  snake:
-    name: 🐍 Generate contribution snake
+  engine:
+    name: 🎮 Sync real profile data
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip ci]') }}
-    steps:
-      - name: Generate dark & light snake SVGs
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.svg?palette=github-light
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish SVGs to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-          jekyll: false
-          commit_message: "chore(snake): update contribution grid [skip ci]"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  # ── 2. Heartbeat / anti-inactivity ─────────────────────────────────────────
-  heartbeat:
-    name: ⚡ Heartbeat & README sync
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip ci]') }}
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
@@ -69,59 +50,41 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Resolve Bogotá timestamp
-        id: stamp
-        shell: bash
-        run: |
-          set -euo pipefail
-          echo "local=$(TZ=America/Bogota date '+%Y-%m-%d %H:%M:%S')" >> "$GITHUB_OUTPUT"
-          echo "utc=$(date -u '+%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
-
-      - name: Inject live markers into README + .heartbeat
-        shell: bash
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#00F7FF&color_dots=#101A2B,#1E6E7A,#00A8B8,#FFD166,#FF9E4A
         env:
-          STAMP: ${{ steps.stamp.outputs.local }}
-          UTC_STAMP: ${{ steps.stamp.outputs.utc }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish raw snake to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+          commit_message: "chore(snake): real contribution grid [skip ci]"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build real contributions panel
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: python3 scripts/build_contributions.py
+
+      - name: Frame the snake with the profile palette
+        run: python3 scripts/build_snake_frame.py dist/github-contribution-grid-snake-dark.svg
+
+      - name: Inject real heartbeat into README + .heartbeat
+        run: python3 scripts/update_heartbeat.py
+
+      - name: Show generated stats
         run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          import json
-          import os
-          import pathlib
-          import re
-
-          stamp = os.environ["STAMP"]
-          utc_stamp = os.environ["UTC_STAMP"]
-
-          block = (
-              "<!-- LAST_ACTIVE_START -->"
-              f"⚡ <b>Sistema Activo</b> | Última sincronización automática: "
-              f"<code>{stamp} COT</code>"
-              "<!-- LAST_ACTIVE_END -->"
-          )
-
-          readme = pathlib.Path("README.md")
-          text = readme.read_text(encoding="utf-8")
-          pattern = re.compile(r"<!-- LAST_ACTIVE_START -->.*?<!-- LAST_ACTIVE_END -->", re.S)
-
-          if not pattern.search(text):
-              raise SystemExit("::error::LAST_ACTIVE markers not found in README.md")
-
-          readme.write_text(pattern.sub(block, text, count=1), encoding="utf-8")
-
-          heartbeat = {
-              "status": "active",
-              "engine": "profile-engine/v2.1",
-              "timezone": "America/Bogota",
-              "last_sync_local": f"{stamp} COT",
-              "last_sync_utc": utc_stamp,
-          }
-          pathlib.Path(".heartbeat").write_text(
-              json.dumps(heartbeat, indent=2, ensure_ascii=False) + "\n",
-              encoding="utf-8",
-          )
-          print(f"heartbeat -> {stamp} COT")
-          PY
+          echo "── Real public data ─────────────────────────"
+          cat assets/contributions.json
 
       - name: Commit & push (safe retry)
         shell: bash
@@ -129,23 +92,34 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md .heartbeat
+
+          FILES="README.md .heartbeat assets/contributions.svg assets/contributions.json assets/contribution-snake.svg"
+          git add $FILES
 
           if git diff --cached --quiet; then
-            echo "No heartbeat changes detected — nothing to do."
+            echo "No changes detected — nothing to do."
             exit 0
           fi
 
-          git commit -m "chore(heartbeat): automated profile sync [skip ci]"
+          git commit -m "chore(engine): sync real profile data [skip ci]"
 
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
-              echo "Heartbeat pushed on attempt ${attempt}."
+              echo "Profile engine pushed on attempt ${attempt}."
               exit 0
             fi
+
             echo "Push rejected — rebasing on origin/main (attempt ${attempt})."
-            git pull --rebase origin main || true
+            git fetch origin main
+
+            if ! git rebase origin/main; then
+              # During a rebase, --theirs is our freshly generated commit.
+              # Keep the generated files; never publish stale data.
+              git checkout --theirs $FILES || true
+              git add $FILES
+              git -c core.editor=true rebase --continue || true
+            fi
           done
 
-          echo "::error::Unable to push heartbeat after 3 attempts."
+          echo "::error::Unable to push the profile engine after 3 attempts."
           exit 1
