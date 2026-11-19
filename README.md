@@ -120,7 +120,7 @@
 </div>
 
 <div align="center">
-  <sub><!-- LAST_ACTIVE_START -->⚡ <b>Sistema Activo</b> | Última sincronización automática: <code>2026-11-18 15:00:17 COT</code><!-- LAST_ACTIVE_END --></sub>
+  <sub><!-- LAST_ACTIVE_START -->⚡ <b>Sistema Activo</b> | Última sincronización automática: <code>2026-11-18 21:34:18 COT</code><!-- LAST_ACTIVE_END --></sub>
   <br/><br/>
   <sub>Bogotá, Colombia · <code>profile-engine v2.1</code> · public data only</sub>
 </div>
