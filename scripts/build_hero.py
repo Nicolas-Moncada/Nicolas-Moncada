@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the pixel-art hero scene for the GitHub profile."""
+"""Build the pixel-art hero scene for the GitHub profile (enhanced edition)."""
 from __future__ import annotations
 
 import pathlib
@@ -19,6 +19,11 @@ CREAM = "#F4E8D0"
 INK = "#080C14"
 WHITE = "#E6EDF3"
 MUTED = "#8B98AB"
+PURPLE = "#7C4DFF"
+DARK_PURPLE = "#2A1A4A"
+TEAL = "#00E6A8"
+ORANGE = "#FF9E4A"
+BRICK = "#C94F4F"
 
 FONT = '"Cascadia Mono", "Consolas", "Courier New", monospace'
 
@@ -78,47 +83,6 @@ def text(x, y, content, size=12, fill=WHITE, anchor="start", weight=400, spacing
     return f'<text {" ".join(attrs)}>{content}</text>'
 
 
-PAC_OPEN = [
-    "..###..",
-    ".#####.",
-    "###....",
-    "##.....",
-    "###....",
-    ".#####.",
-    "..###..",
-]
-PAC_CLOSED = [
-    "..###..",
-    ".#####.",
-    "#######",
-    "#######",
-    "#######",
-    ".#####.",
-    "..###..",
-]
-
-GHOST = [
-    ".#####.",
-    "#######",
-    "#######",
-    "#######",
-    "#######",
-    "#######",
-    "##.#.##",
-]
-
-HEART = [
-    ".###.###.",
-    "#########",
-    "#########",
-    "#########",
-    ".#######.",
-    "..#####..",
-    "...###...",
-    "....#....",
-]
-
-
 def sprite(x, y, rows, color, unit=1, cls=None, extra=None):
     out = [f'<g class="{cls}">' if cls else "<g>"]
     for ry, row in enumerate(rows):
@@ -137,20 +101,56 @@ def sprite(x, y, rows, color, unit=1, cls=None, extra=None):
 
 
 def pacman(x, y, color=YELLOW, unit=1, cls=None):
+    rows = [
+        "..###..",
+        ".#####.",
+        "###....",
+        "##.....",
+        "###....",
+        ".#####.",
+        "..###..",
+    ]
+    closed = [
+        "..###..",
+        ".#####.",
+        "#######",
+        "#######",
+        "#######",
+        ".#####.",
+        "..###..",
+    ]
     return (
-        f'<g class="{cls}">'
-        + sprite(x, y, PAC_OPEN, color, unit)
-        + sprite(x, y, PAC_CLOSED, color, unit, cls="pac-closed")
+        f'<g class="{cls}">' if cls else "<g>"
+        + sprite(x, y, rows, color, unit)
+        + sprite(x, y, closed, color, unit, cls="pac-closed")
         + "</g>"
     )
 
 
 def ghost(x, y, color, unit=1, cls=None):
-    return sprite(x, y, GHOST, color, unit, cls)
+    rows = [
+        ".#####.",
+        "#######",
+        "#######",
+        "#######",
+        "#######",
+        "##.#.##",
+    ]
+    return sprite(x, y, rows, color, unit, cls)
 
 
 def heart(x, y, color, unit=1, cls=None):
-    return sprite(x, y, HEART, color, unit, cls)
+    rows = [
+        ".###.###.",
+        "#########",
+        "#########",
+        "#########",
+        ".#######.",
+        "..#####..",
+        "...###...",
+        "....#....",
+    ]
+    return sprite(x, y, rows, color, unit, cls)
 
 
 def build() -> str:
@@ -164,7 +164,7 @@ def build() -> str:
         '<desc id="heroDesc">Escena pixel art de una habitación gamer: Nicolás Moncada, 20 años, '
         'estudiante de tercer semestre de Ingeniería de Sistemas en Bogotá, aparece con audífonos '
         'frente a un computador retro, un tocadiscos y una máquina arcade de Pac-Man. La escena '
-        'incluye sus intereses: videojuegos, música, inteligencia artificial, videocoding y diseño.</desc>'
+        'incluye sus intereses: videojuegos, música, inteligencia artificial, vibe coding y diseño.</desc>'
     )
 
     p.append("<defs>")
@@ -192,6 +192,11 @@ def build() -> str:
         '<radialGradient id="lampGlow" cx="0.5" cy="0.5" r="0.5">'
         f'<stop offset="0" stop-color="{YELLOW}" stop-opacity="0.34"/>'
         '<stop offset="1" stop-color="#FFD166" stop-opacity="0"/></radialGradient>'
+    )
+    p.append(
+        '<radialGradient id="neonGlow" cx="0.5" cy="0.5" r="0.5">'
+        f'<stop offset="0" stop-color="{CYAN}" stop-opacity="0.45"/>'
+        '<stop offset="1" stop-color="#00F7FF" stop-opacity="0"/></radialGradient>'
     )
     p.append(
         '<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">'
@@ -419,7 +424,6 @@ def build() -> str:
     p.append(rect(181, 66, 5, 6, "#FFD166"))
     p.append(rect(182, 67, 3, 2, "#FFB800"))
     p.append(rect(180, 72, 7, 1, "#8A6A4A"))
-    # headphones on the shelf? no, on desk
     # small neon strip under shelf
     p.append(rect(98, 79, 108, 0.5, CYAN, opacity="0.45"))
     p.append(rect(98, 79, 108, 2, "url(#neonGrad)", opacity="0.08"))

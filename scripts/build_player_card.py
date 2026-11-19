@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a pixel-art player card with Nicolás' profile attributes."""
+"""Build a pixel-art player card with Nicolás' profile attributes (enhanced edition)."""
 from __future__ import annotations
 
 import pathlib
@@ -21,6 +21,9 @@ PINK = "#FF3D8B"
 YELLOW = "#FFD166"
 BLUE = "#70A5FD"
 GREEN = "#4ADE80"
+PURPLE = "#7C4DFF"
+ORANGE = "#FF9E4A"
+TEAL = "#00E6A8"
 BORDER = "#22304A"
 
 
@@ -57,7 +60,39 @@ def line(x1, y1, x2, y2, stroke, width=1, opacity=None):
     return f'<line {" ".join(a)}/>'
 
 
-# ── portrait sprite ──────────────────────────────────────────────────────────
+def sprite(rows, x, y, pixel, color):
+    out = []
+    for ry, row in enumerate(rows):
+        for rx, ch in enumerate(row):
+            if ch == "#":
+                out.append(rect(x + rx * pixel, y + ry * pixel, pixel, pixel, color))
+    return "".join(out)
+
+
+def tag(x_right, y, label, color, size=9.0):
+    """Small qualitative status tag, right-aligned, with a pixel border."""
+    w = 18 + len(label) * size * 0.82
+    x = x_right - w
+    out = [rect(x, y, w, 20, BORDER), rect(x + 1, y + 1, w - 2, 18, "#0B1626")]
+    out.append(rect(x + 1, y + 1, 2, 18, color))
+    out.append(text(x + 9, y + 14, label, size, color, "start", 700, 0.7))
+    return "".join(out)
+
+
+def barcode(x, y, width=84, height=22):
+    out = []
+    pattern = [2, 1, 3, 1, 2, 4, 1, 2, 1, 3, 2, 1, 4, 1, 2, 3, 1, 2, 4, 1, 2, 1]
+    cx = x
+    for i, w in enumerate(pattern):
+        if cx + w > x + width:
+            break
+        if i % 2 == 0:
+            out.append(rect(cx, y, w, height, CREAM, opacity="0.8"))
+        cx += w + 1
+    return "".join(out)
+
+
+# ── portrait sprite (32x40 grid) ──────────────────────────────────────────────
 GW, GH = 32, 40
 grid = [["." for _ in range(GW)] for _ in range(GH)]
 
@@ -231,6 +266,7 @@ ICONS = {
         "..######..",
         "..........",
         "..........",
+        "..........",
     ],
     "flow": [
         "..##......",
@@ -319,15 +355,13 @@ ICONS = {
 }
 
 
-def icon(name, x, y, color, px=2, dim=None):
+def icon(name, x, y, color, px=2):
     rows = ICONS[name]
     out = []
     for ry, row in enumerate(rows):
         for rx, ch in enumerate(row):
             if ch == "#":
                 out.append(rect(x + rx * px, y + ry * px, px, px, color))
-            elif ch == "o" and dim:
-                out.append(rect(x + rx * px, y + ry * px, px, px, dim))
     return "".join(out)
 
 
@@ -336,29 +370,6 @@ def meter(x, y, filled, color, total=5, bw=14, bh=7, gap=4):
     for i in range(total):
         c = color if i < filled else "#1A2436"
         out.append(rect(x + i * (bw + gap), y, bw, bh, c))
-    return "".join(out)
-
-
-def tag(x_right, y, label, color, size=9.0):
-    """Small qualitative status tag, right-aligned, with a pixel border."""
-    w = 18 + len(label) * size * 0.82
-    x = x_right - w
-    out = [rect(x, y, w, 20, BORDER), rect(x + 1, y + 1, w - 2, 18, "#0B1626")]
-    out.append(rect(x + 1, y + 1, 2, 18, color))
-    out.append(text(x + 9, y + 14, label, size, color, "start", 700, 0.7))
-    return "".join(out)
-
-
-def barcode(x, y, width=84, height=22):
-    out = []
-    pattern = [2, 1, 3, 1, 2, 4, 1, 2, 1, 3, 2, 1, 4, 1, 2, 3, 1, 2, 4, 1, 2, 1]
-    cx = x
-    for i, w in enumerate(pattern):
-        if cx + w > x + width:
-            break
-        if i % 2 == 0:
-            out.append(rect(cx, y, w, height, CREAM, opacity="0.8"))
-        cx += w + 1
     return "".join(out)
 
 
@@ -528,3 +539,4 @@ def build():
 if __name__ == "__main__":
     OUT.write_text(build(), encoding="utf-8")
     print(f"wrote {OUT} ({OUT.stat().st_size:,} bytes)")
+
