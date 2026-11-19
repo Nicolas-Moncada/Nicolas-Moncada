@@ -1,0 +1,151 @@
+name: Profile Engine 24/7
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Always Active engine:
+#   • Every 8 hours: regenerates the contribution snake + refreshes the
+#     heartbeat block in README.md and .heartbeat.
+#   • Each heartbeat commit counts as repository activity, which prevents
+#     GitHub from disabling this scheduled workflow after 60 days of
+#     inactivity.
+#   • Bot commits carry [skip ci] so the push trigger can never loop.
+# ─────────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-engine-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  TZ: America/Bogota
+
+jobs:
+  # ── 1. Contribution snake ──────────────────────────────────────────────────
+  snake:
+    name: 🐍 Generate contribution snake
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip ci]') }}
+    steps:
+      - name: Generate dark & light snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?palette=github-light
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+          commit_message: "chore(snake): update contribution grid [skip ci]"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # ── 2. Heartbeat / anti-inactivity ─────────────────────────────────────────
+  heartbeat:
+    name: ⚡ Heartbeat & README sync
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip ci]') }}
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Resolve Bogotá timestamp
+        id: stamp
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "local=$(TZ=America/Bogota date '+%Y-%m-%d %H:%M:%S')" >> "$GITHUB_OUTPUT"
+          echo "utc=$(date -u '+%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
+
+      - name: Inject live markers into README + .heartbeat
+        shell: bash
+        env:
+          STAMP: ${{ steps.stamp.outputs.local }}
+          UTC_STAMP: ${{ steps.stamp.outputs.utc }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import os
+          import pathlib
+          import re
+
+          stamp = os.environ["STAMP"]
+          utc_stamp = os.environ["UTC_STAMP"]
+
+          block = (
+              "<!-- LAST_ACTIVE_START -->"
+              f"⚡ <b>Sistema Activo</b> | Última sincronización automática: "
+              f"<code>{stamp} COT</code>"
+              "<!-- LAST_ACTIVE_END -->"
+          )
+
+          readme = pathlib.Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+          pattern = re.compile(r"<!-- LAST_ACTIVE_START -->.*?<!-- LAST_ACTIVE_END -->", re.S)
+
+          if not pattern.search(text):
+              raise SystemExit("::error::LAST_ACTIVE markers not found in README.md")
+
+          readme.write_text(pattern.sub(block, text, count=1), encoding="utf-8")
+
+          heartbeat = {
+              "status": "active",
+              "engine": "profile-engine/v2.1",
+              "timezone": "America/Bogota",
+              "last_sync_local": f"{stamp} COT",
+              "last_sync_utc": utc_stamp,
+          }
+          pathlib.Path(".heartbeat").write_text(
+              json.dumps(heartbeat, indent=2, ensure_ascii=False) + "\n",
+              encoding="utf-8",
+          )
+          print(f"heartbeat -> {stamp} COT")
+          PY
+
+      - name: Commit & push (safe retry)
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .heartbeat
+
+          if git diff --cached --quiet; then
+            echo "No heartbeat changes detected — nothing to do."
+            exit 0
+          fi
+
+          git commit -m "chore(heartbeat): automated profile sync [skip ci]"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Heartbeat pushed on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push rejected — rebasing on origin/main (attempt ${attempt})."
+            git pull --rebase origin main || true
+          done
+
+          echo "::error::Unable to push heartbeat after 3 attempts."
+          exit 1
