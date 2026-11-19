@@ -42,7 +42,7 @@ def main() -> None:
 
     heartbeat = {
         "status": "active",
-        "engine": "profile-engine/v4.0",
+        "engine": "profile-engine",
         "timezone": "America/Bogota",
         "last_sync_local": stamp,
         "last_sync_utc": data.get("updated_utc"),

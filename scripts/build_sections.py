@@ -159,7 +159,7 @@ def footer() -> str:
         rect(32, 124, 3, 3, GREEN, cls="pulseF"),
         text(42, 132, "BOGOTÁ, COLOMBIA · UTC-5", 9, MUTED, "start", 400, 0.8),
         text(600, 132, "HECHO CON PYTHON, SVG Y GITHUB ACTIONS", 9, MUTED, "middle", 400, 0.8),
-        text(1168, 132, "NICOLÁS.OS · v4.0", 9, PINK, "end", 700, 0.8),
+        text(1168, 132, "NICOLÁS.OS", 9, PINK, "end", 700, 0.8),
         "<style>"
         ".blinkF{animation:blinkF 1.2s steps(1,end) infinite}"
         ".pulseF{animation:pulseF 2s ease-in-out infinite}"

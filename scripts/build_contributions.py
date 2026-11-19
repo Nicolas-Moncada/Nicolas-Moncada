@@ -380,10 +380,10 @@ def build(stats: dict) -> str:
     p.append('<path d="M32 120V96h24M1168 120V96h-24M32 304v24h24M1168 304v24h-24" '
              f'fill="none" stroke="{CYAN}" stroke-opacity="0.45" stroke-width="2"/>')
 
-    grid_x = 96
+    grid_x = 48
     grid_y = 128
-    pitch = 17
-    cell = 14
+    pitch = 18
+    cell = 15
     months_drawn: list[int] = []
     for wi, week in enumerate(weeks):
         first_day = next((slot["date"] for slot in week if slot), None)
@@ -414,11 +414,11 @@ def build(stats: dict) -> str:
                 p.append(rect(x - 2, y - 2, cell + 4, cell + 4, "none", stroke=CYAN, stroke_width=1))
 
     # the long stretch before the account existed is shown as a deliberate prologue
-    p.append(text(96 + 20 * pitch, 196, "ANTES DE MI CUENTA", 9, "#2A405C", "middle", 700, 3.2, opacity="0.75"))
+    p.append(text(grid_x + 20 * pitch, 196, "ANTES DE MI CUENTA", 9, "#2A405C", "middle", 700, 3.2, opacity="0.75"))
 
     # weekday labels
     for di, label in ((1, "LUN"), (3, "MIÉ"), (5, "VIE")):
-        p.append(text(84, grid_y + di * pitch + 10, label, 7.5, DIM, "end", 700, 0.5))
+        p.append(text(36, grid_y + di * pitch + 10, label, 7.5, DIM, "end", 700, 0.5))
 
     # legend (right)
     lx = 1024
@@ -432,17 +432,12 @@ def build(stats: dict) -> str:
     p.append(rect(lx, 253, 10, 10, "none", stroke=CYAN, stroke_width=1))
     p.append(text(lx + 18, 262, "HOY", 8, CYAN, "start", 700, 0.9))
 
-    # Pac-Man track (bottom of calendar)
-    for i in range(33):
-        p.append(rect(grid_x + 12 + i * 27, 288, 3, 3, "#2A3A52"))
-    p.append('<g class="pac-run">')
-    p.append(pacman(80, 282, YELLOW, 2, closed=False))
-    p.append(pacman(80, 282, YELLOW, 2, closed=True, cls="chomp"))
-    p.append("</g>")
+    # calendar footnote
+    p.append(line(40, 300, 1160, 300, BORDER_DIM, 1, 0.8))
     note = f'CUENTA CREADA EL {fmt_date(created)} · LOS DÍAS ANTERIORES SE MUESTRAN ATENUADOS'
     if stats["first_active"]:
         note += f' · PRIMER PIXEL: {fmt_date(stats["first_active"], False)}'
-    p.append(text(84, 318, note, 8, DIM, "start", 400, 0.8))
+    p.append(text(40, 318, note, 8, DIM, "start", 400, 0.8))
 
     # stat cards
     cards = [
@@ -479,10 +474,13 @@ def build(stats: dict) -> str:
         p.append(rect(chx, 564, 3, 22, color))
         p.append(text(chx + 11, 579, label, 9, color, "start", 700, 0.9))
         chx += w + 10
-    # little pac + dots inside the mission panel
-    p.append(pacman(672, 532, YELLOW, 2))
-    for i in range(3):
-        p.append(rect(692 + i * 10, 536, 3, 3, "#2A3A52"))
+    # mission flag
+    p.append(rect(664, 520, 2, 34, CREAM, opacity="0.85"))
+    p.append(rect(666, 520, 22, 12, PINK))
+    p.append(rect(666, 520, 22, 2, "#FF9EC4", opacity="0.8"))
+    p.append(rect(666, 532, 22, 1, "#B0235F"))
+    p.append(rect(660, 552, 10, 2, BORDER))
+    p.append(text(676, 570, "META", 7, DIM, "middle", 700, 1.2))
 
     # activity panel
     p.append(rect(768, 468, 400, 136, PANEL, opacity="0.78"))
@@ -507,7 +505,7 @@ def build(stats: dict) -> str:
     p.append(line(32, 618, 1168, 618, BORDER_DIM))
     p.append(rect(32, 630, 3, 3, GREEN, cls="pulse"))
     p.append(text(42, 638, "DATOS PÚBLICOS DE GITHUB · SE ACTUALIZA AUTOMÁTICAMENTE CADA 8 HORAS", 8, MUTED, "start", 400, 0.8))
-    p.append(text(1168, 638, "NICOLÁS.OS · CONTRIBUCIONES v4.0", 8, PINK, "end", 700, 0.8))
+    p.append(text(1168, 638, "NICOLÁS.OS · CONTRIBUCIONES", 8, PINK, "end", 700, 0.8))
 
     # CRT scan + inner border
     p.append(rect(0, 0, W, H, "url(#scan)", opacity="0.08"))
@@ -554,7 +552,7 @@ def main() -> None:
         "account_created": stats["created"].isoformat(),
         "updated_local": stats["updated_local"],
         "updated_utc": stats["updated_utc"],
-        "engine": "profile-engine/v4.0",
+        "engine": "profile-engine",
     }
     pathlib.Path(args.json).write_text(json.dumps(public, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"wrote {out} ({out.stat().st_size:,} bytes)")

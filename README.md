@@ -1,6 +1,6 @@
 <!--
   ┌────────────────────────────────────────────────────────────────────────┐
-  │  PROFILE ENGINE v4.0 · Pixel / Arcade edition                          │
+  │  PROFILE ENGINE · Pixel / Arcade edition                               │
   │  Todo el arte se genera con Python + SVG. Cero plantillas externas.    │
   │  Datos 100% públicos de GitHub. Sin métricas inventadas.               │
   │  Automatización: .github/workflows/profile-engine.yml                  │
@@ -47,14 +47,6 @@ Estas cifras salen directamente de mi actividad pública en GitHub. No hay commi
   <img src="assets/contributions.svg" width="100%" alt="Panel de contribuciones reales: calendario de GitHub, contribuciones totales, días activos, racha actual, commits y misión actual"/>
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="assets/contribution-snake.svg" width="100%" alt="Serpiente de contribuciones con la paleta Pac-Man recorriendo el calendario real de GitHub"/>
-  <br/>
-  <sub>El mismo calendario, en versión arcade. Generado con Platane/snk y envuelto en un marco propio.</sub>
-</div>
-
 <a name="laboratorio"></a>
 
 <div align="center">
@@ -63,7 +55,7 @@ Estas cifras salen directamente de mi actividad pública en GitHub. No hay commi
 
 Estoy construyendo mis primeros proyectos con una idea fija: que sean útiles, fáciles de entender y que puedan crecer. Todavía no hay una vitrina de productos terminados; hay práctica, pruebas y aprendizaje. Cuando algo esté listo, aparecerá aquí con su código y su documentación.
 
-Este perfil también es un proyecto: el motor de contribuciones, la serpiente y todos los gráficos se generan con **Python + SVG** y se actualizan con **GitHub Actions**. Puedes ver el código en [`nicolasmoncada160622-prog`](https://github.com/nicolasmoncada160622-prog/nicolasmoncada160622-prog).
+Este perfil también es un proyecto: el motor de contribuciones y todos los gráficos se generan con **Python + SVG** y se actualizan con **GitHub Actions**. Puedes ver el código en [`nicolasmoncada160622-prog`](https://github.com/nicolasmoncada160622-prog/nicolasmoncada160622-prog).
 
 <div align="center">
   <sub>¿Una idea, un consejo o un proyecto para aprender juntos? <a href="https://github.com/nicolasmoncada160622-prog">Encuéntrame en GitHub</a>.</sub>
@@ -76,7 +68,7 @@ Este perfil también es un proyecto: el motor de contribuciones, la serpiente y 
 </div>
 
 <div align="center">
-  <sub><!-- LAST_ACTIVE_START -->⚡ <b>Motor activo</b> · 8 contribuciones · 3 días activos · racha 1 · sync 18 NOV 2026 · 23:44 COT<!-- LAST_ACTIVE_END --></sub>
+  <sub><!-- LAST_ACTIVE_START -->⚡ <b>Motor activo</b> · 8 contribuciones · 2 días activos · racha 1 · sync 18 NOV 2026 · 23:52 COT<!-- LAST_ACTIVE_END --></sub>
   <br/>
-  <sub>Bogotá, Colombia · <code>profile-engine v4.0</code> · datos públicos, sin relleno</sub>
+  <sub>Bogotá, Colombia · <code>profile-engine</code> · datos públicos, sin relleno</sub>
 </div>

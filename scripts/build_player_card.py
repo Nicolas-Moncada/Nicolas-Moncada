@@ -339,13 +339,13 @@ def meter(x, y, filled, color, total=5, bw=14, bh=7, gap=4):
     return "".join(out)
 
 
-def tag(x_right, y, label, color, size=8.0):
+def tag(x_right, y, label, color, size=9.0):
     """Small qualitative status tag, right-aligned, with a pixel border."""
-    w = 16 + len(label) * size * 0.82
+    w = 18 + len(label) * size * 0.82
     x = x_right - w
-    out = [rect(x, y, w, 18, BORDER), rect(x + 1, y + 1, w - 2, 16, "#0B1626")]
-    out.append(rect(x + 1, y + 1, 2, 16, color))
-    out.append(text(x + 9, y + 12.5, label, size, color, "start", 700, 0.8))
+    out = [rect(x, y, w, 20, BORDER), rect(x + 1, y + 1, w - 2, 18, "#0B1626")]
+    out.append(rect(x + 1, y + 1, 2, 18, color))
+    out.append(text(x + 9, y + 14, label, size, color, "start", 700, 0.7))
     return "".join(out)
 
 
@@ -414,10 +414,9 @@ def build():
     p.append(rect(552, 22, 8, 8, PINK))
     p.append(rect(564, 22, 8, 8, CYAN))
     p.append(text(596, 32, "PLAYER 1", 9, CYAN, "start", 700, 2.2))
-    p.append(text(596, 48, "PARTIDA GUARDADA", 8, MUTED, "start", 400, 1.4))
-    p.append(rect(1040, 25, 3, 3, GREEN, cls="pulse"))
-    p.append(text(1050, 32, "EN LÍNEA", 8, GREEN, "start", 400, 1.4))
-    p.append(text(1168, 32, "v4.0", 9, PINK, "end", 700, 1.4))
+    p.append(text(596, 48, "PARTIDA GUARDADA", 9, MUTED, "start", 400, 1.2))
+    p.append(rect(1138, 25, 3, 3, GREEN, cls="pulse"))
+    p.append(text(1168, 33, "EN LÍNEA", 9, GREEN, "end", 400, 1.2))
     p.append(line(0, 64, W, 64, "url(#pcNeon)", 1, 0.5))
 
     # ── left panel ────────────────────────────────────────────────────────────
@@ -436,10 +435,10 @@ def build():
     # frame corners
     p.append('<path d="M56 132V108h24M360 132V108h-24M56 438v24h24M360 438v24h-24" fill="none" stroke="#00F7FF" stroke-opacity="0.5" stroke-width="2"/>')
     p.append(text(68, 124, "PLAYER 1", 8, CYAN, "start", 700, 1.6))
-    p.append(text(342, 124, "READY", 8, GREEN, "end", 700, 1.6, cls="pulse"))
+    p.append(text(342, 124, "READY", 9, GREEN, "end", 700, 1.4, cls="pulse"))
     # name block
     p.append(text(56, 500, "NICOLÁS", 30, CREAM, "start", 700, 2))
-    p.append(text(56, 520, "MONCADA MONTAÑO", 11, BLUE, "start", 600, 2.4))
+    p.append(text(56, 520, "MONCADA MONTAÑO", 12, BLUE, "start", 600, 2.2))
     p.append(text(56, 540, "INGENIERÍA DE SISTEMAS  ·  3ER SEMESTRE  ·  UNIMINUTO", 9, MUTED, "start", 400, 1.2))
     p.append(text(56, 556, "BOGOTÁ, COLOMBIA  ·  20 AÑOS  ·  UTC-5", 9, MUTED, "start", 400, 1.4))
     p.append(barcode(56, 566, 90, 16))
@@ -449,7 +448,7 @@ def build():
     p.append(rect(408, 84, 760, 482, PANEL, opacity="0.55"))
     p.append(f'<rect x="408.5" y="84.5" width="759" height="481" fill="none" stroke="{BORDER}"/>')
     p.append(text(432, 116, "ATRIBUTOS", 9, CYAN, "start", 700, 3))
-    p.append(text(1152, 116, "PERFIL COMPLETO", 8.5, MUTED, "end", 400, 1.4))
+    p.append(text(1152, 116, "PERFIL COMPLETO", 9, MUTED, "end", 400, 1.2))
     p.append(line(432, 126, 1152, 126, "#1B2A44"))
 
     attrs = [
@@ -464,8 +463,8 @@ def build():
     for i, (ic, name, desc, status, color) in enumerate(attrs):
         p.append(rect(430, y, 724, 30, "#0D1727" if i % 2 == 0 else "#0B1422", opacity="0.55"))
         p.append(icon(ic, 438, y + 5, color, 2))
-        p.append(text(482, y + 13, name, 11, CREAM, "start", 700, 1.4))
-        p.append(text(482, y + 26, desc, 8.5, MUTED, "start", 400, 0.7))
+        p.append(text(482, y + 13, name, 12, CREAM, "start", 700, 1.2))
+        p.append(text(482, y + 26, desc, 9.5, MUTED, "start", 400, 0.6))
         p.append(tag(1150, y + 7, status, color))
         y += 32
 
@@ -481,11 +480,11 @@ def build():
     ]
     ly = 390
     for name, status, lvl, color in lang:
-        p.append(text(432, ly, name, 10, CREAM, "start", 600, 1.2))
+        p.append(text(432, ly, name, 11, CREAM, "start", 600, 1.0))
         p.append(rect(690, ly - 6, 5, 5, color))
-        p.append(text(702, ly, status, 8, MUTED, "start", 400, 1.0))
+        p.append(text(702, ly, status, 9, MUTED, "start", 400, 0.8))
         ly += 26
-    p.append(text(432, 506, "Aprendizaje constante: ningún experto nace sabiendo.", 8, DIM, "start", 400, 0.8))
+    p.append(text(432, 506, "Aprendizaje constante: ningún experto nace sabiendo.", 8.5, DIM, "start", 400, 0.6))
 
     # interests
     p.append(text(850, 372, "INTERESES", 9, CYAN, "start", 700, 3))
@@ -495,10 +494,10 @@ def build():
     ]
     cx, cy = 850, 390
     for label, color in chips:
-        w = 10 + len(label) * 5.8 + 12
-        p.append(rect(cx, cy, w, 26, "#0B1626", opacity="0.9"))
-        p.append(rect(cx, cy, 3, 26, color))
-        p.append(text(cx + 12, cy + 17, label, 8, color, "start", 600, 0.8))
+        w = 10 + len(label) * 6.2 + 12
+        p.append(rect(cx, cy, w, 28, "#0B1626", opacity="0.9"))
+        p.append(rect(cx, cy, 3, 28, color))
+        p.append(text(cx + 12, cy + 18.5, label, 9, color, "start", 600, 0.7))
         cx += w + 10
         if cx > 1040:
             cx = 850
@@ -508,17 +507,17 @@ def build():
     p.append(text(432, 540, "“", 46, YELLOW, "start", 700, 0))
     p.append(text(472, 526, "Me apasiona programar, diseñar", 15, CREAM, "start", 600, 0.6))
     p.append(text(472, 548, "y resolver problemas.", 15, CREAM, "start", 600, 0.6))
-    p.append(text(850, 526, "Vibe coding: una herramienta para", 9, MUTED, "start", 400, 0.8))
-    p.append(text(850, 542, "pensar más rápido y cuidar el flujo,", 9, MUTED, "start", 400, 0.8))
-    p.append(text(850, 558, "sin saltarme los fundamentos.", 9, MUTED, "start", 400, 0.8))
+    p.append(text(850, 526, "Vibe coding: una herramienta para", 10, MUTED, "start", 400, 0.7))
+    p.append(text(850, 543, "pensar más rápido y cuidar el flujo,", 10, MUTED, "start", 400, 0.7))
+    p.append(text(850, 560, "sin saltarme los fundamentos.", 10, MUTED, "start", 400, 0.7))
 
     # footer
     p.append(line(0, 600, W, 600, BORDER))
     p.append(rect(0, 600, W, 50, "#080C14", opacity="0.9"))
     p.append(rect(24, 618, 3, 3, YELLOW, cls="blink"))
-    p.append(text(36, 626, "INSERT COIN TO CONTINUE", 9, YELLOW, "start", 700, 1.4))
-    p.append(text(600, 626, "NICOLÁS MONCADA  ·  BOGOTÁ, CO  ·  APRENDIZAJE CONSTANTE", 9, MUTED, "middle", 400, 1.2))
-    p.append(text(1168, 626, "NICOLÁS.OS v4.0", 9, PINK, "end", 700, 1.2))
+    p.append(text(36, 626, "INSERT COIN TO CONTINUE", 10, YELLOW, "start", 700, 1.2))
+    p.append(text(600, 626, "NICOLÁS MONCADA  ·  BOGOTÁ, CO  ·  APRENDIZAJE CONSTANTE", 10, MUTED, "middle", 400, 1.0))
+    p.append(text(1168, 626, "NICOLÁS.OS", 10, PINK, "end", 700, 1.0))
 
     # CRT overlay
     p.append('<rect width="1200" height="650" fill="none" stroke="#22304A" stroke-width="2"/>')

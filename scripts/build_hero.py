@@ -406,8 +406,6 @@ def build() -> str:
     p.append(rect(139, 69, 4, 2, "#FFB800"))
     p.append(rect(140, 71, 2, 2, "#FFD166"))
     p.append(rect(138, 73, 6, 1, "#8A6A4A"))
-    # little ghost figure
-    p.append(ghost(148, 66, PINK, 1))
     # stack of game cases
     p.append(rect(160, 64, 16, 2, "#1B2636"))
     p.append(rect(161, 64, 14, 1, CYAN))
@@ -433,8 +431,6 @@ def build() -> str:
     p.append('<path d="M163 23 L166 20 L286 20 L290 23 L290 57 L286 60 L166 60 L163 57 Z" fill="none" stroke="#00F7FF" stroke-opacity="0.28" stroke-width="1"/>')
     p.append(rect(164, 20, 2, 2, CYAN))
     p.append(rect(286, 20, 2, 2, PINK))
-    p.append(rect(164, 58, 2, 2, PINK))
-    p.append(rect(286, 58, 2, 2, CYAN))
     p.append(text(672, 88, "PLAYER 1", 8, "#A9B8D8", "start", 700, 1.8))
     p.append(text(1132, 88, "READY", 8, "#4ADE80", "end", 700, 1.8, cls="pulse"))
     p.append(rect(648, 92, 40, 0.75, "#2A3A52"))
@@ -445,16 +441,6 @@ def build() -> str:
     p.append(rect(740, 194, 120, 1, "#FF3D8B", opacity="0.8"))
     p.append(text(896, 216, "INGENIERÍA DE SISTEMAS  ·  3ER SEMESTRE", 9, "#C9D1D9", "middle", 400, 2.2))
     p.append(text(896, 234, "BOGOTÁ, COLOMBIA  ·  20 AÑOS  ·  UTC-5", 9, MUTED, "middle", 400, 2.2))
-    # neon pac + ghost flanking panel
-    p.append(pacman(166, 49, YELLOW, 1))
-    for i in range(3):
-        p.append(rect(174 + i * 3, 51, 1, 1, "#FFE9A8", opacity="0.8"))
-    p.append(ghost(278, 48, PINK, 1, cls="ghost-bob"))
-    p.append(rect(168, 42, 108, 0.5, "#1B2A44"))
-    p.append(rect(168, 60, 108, 0.5, "#1B2A44", opacity="0.5"))
-    # tiny power light
-    p.append(rect(284, 58, 1, 1, "#4ADE80", cls="pulse"))
-
     # ── rug ───────────────────────────────────────────────────────────────────
     p.append(rect(8, 148, 202, 16, "#2E1740"))
     p.append(rect(8, 148, 202, 1, "#5A3A7A"))
@@ -669,11 +655,8 @@ def build() -> str:
     p.append(rect(220, 70, 2, 90, "#3B2458"))
     p.append(rect(284, 70, 2, 90, "#140C24"))
     p.append(rect(222, 158, 62, 4, "#120A1E"))
-    # side art
+    # side edges
     p.append(rect(221, 90, 4, 62, "#2E1740"))
-    p.append(pacman(221.5, 100, YELLOW, 0.7))
-    p.append(ghost(221.5, 116, PINK, 0.7))
-    p.append(ghost(221.5, 126, CYAN, 0.7))
     p.append(rect(283, 90, 2, 62, "#2E1740"))
     p.append(rect(282, 100, 2, 4, PINK, opacity="0.6"))
     p.append(rect(282, 108, 2, 4, CYAN, opacity="0.6"))
@@ -682,8 +665,6 @@ def build() -> str:
     p.append(rect(225, 75, 56, 10, "#2A1140"))
     p.append(rect(225, 75, 56, 1, PINK, opacity="0.8"))
     p.append(text(1080, 336, "PAC-MAN", 13, YELLOW, "middle", 700, 3))
-    p.append(pacman(228, 78, YELLOW, 0.8))
-    p.append(ghost(268, 78, PINK, 0.8))
     # screen bezel
     p.append(rect(226, 88, 54, 34, "#090611"))
     p.append(rect(228, 90, 50, 30, "#120A1E"))
@@ -767,7 +748,7 @@ def build() -> str:
     p.append(text(326, 686, "3ER SEMESTRE", 9, MUTED, "start", 400, 1.3))
     p.append(text(476, 686, "BOGOTÁ, CO", 9, MUTED, "start", 400, 1.3))
     p.append(text(610, 686, "VIDEOJUEGOS · MÚSICA · IA · VIBE CODING · CIBERSEGURIDAD · DISEÑO", 8.5, "#70A5FD", "start", 400, 1.1))
-    p.append(text(1176, 686, "MOTOR DEL PERFIL v4.0", 9, MAGENTA, "end", 400, 1.3))
+    p.append(text(1176, 686, "MOTOR DEL PERFIL", 9, MAGENTA, "end", 400, 1.3))
 
     # ── CRT overlay / vignette ────────────────────────────────────────────────
     p.append(rect(0, 0, 300, 175, "url(#scan)", opacity="0.55"))

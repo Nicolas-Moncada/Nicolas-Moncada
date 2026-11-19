@@ -1,18 +1,13 @@
 name: Profile Engine 24/7
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  PROFILE ENGINE v4.0 · pixel / arcade edition
+#  PROFILE ENGINE · pixel / arcade edition
 #
 #  One sequential job, one source of truth:
 #   1. Reads the real public contribution graph.
-#   2. Generates the snake and publishes the raw copy to the output branch.
-#   3. Regenerates the framed snake and the real contributions panel.
-#   4. Injects the real heartbeat into README.md and .heartbeat.
-#   5. Pushes everything to main with a safe retry.
-#
-#  Why one job? The old version had two jobs pushing to main at the same time.
-#  This version removes that race. Generated data is deterministic; the only
-#  variable is the timestamp, and that is exactly what keeps the engine alive.
+#   2. Regenerates the real contributions panel.
+#   3. Injects the real heartbeat into README.md and .heartbeat.
+#   4. Pushes everything to main with a safe retry.
 #
 #  Public data only. No private repositories, no hardware details, no
 #  invented metrics.
@@ -50,33 +45,11 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Generate contribution snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#00F7FF&color_dots=#101A2B,#1E6E7A,#00A8B8,#FFD166,#FF9E4A
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Publish raw snake to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-          jekyll: false
-          commit_message: "chore(snake): real contribution grid [skip ci]"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Build real contributions panel
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USER: ${{ github.repository_owner }}
         run: python3 scripts/build_contributions.py
-
-      - name: Frame the snake with the profile palette
-        run: python3 scripts/build_snake_frame.py dist/github-contribution-grid-snake-dark.svg
 
       - name: Inject real heartbeat into README + .heartbeat
         run: python3 scripts/update_heartbeat.py
@@ -93,7 +66,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          FILES="README.md .heartbeat assets/contributions.svg assets/contributions.json assets/contribution-snake.svg"
+          FILES="README.md .heartbeat assets/contributions.svg assets/contributions.json"
           git add $FILES
 
           if git diff --cached --quiet; then

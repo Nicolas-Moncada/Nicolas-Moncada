@@ -1,9 +1,9 @@
 {
   "login": "nicolasmoncada160622-prog",
   "total_contributions": 8,
-  "active_days": 3,
+  "active_days": 2,
   "current_streak": 1,
-  "longest_streak": 2,
+  "longest_streak": 1,
   "commits": 5,
   "pull_requests": 0,
   "issues": 0,
@@ -12,7 +12,7 @@
   "followers": 0,
   "days_on_github": 80,
   "account_created": "2026-08-31",
-  "updated_local": "18 NOV 2026 · 23:44 COT",
-  "updated_utc": "2026-11-19T04:44:45Z",
-  "engine": "profile-engine/v4.0"
+  "updated_local": "18 NOV 2026 · 23:52 COT",
+  "updated_utc": "2026-11-19T04:52:56Z",
+  "engine": "profile-engine"
 }
