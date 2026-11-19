@@ -46,7 +46,7 @@
 <text x="78" y="53" font-size="9" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.6">DATOS REALES · SIN MÉTRICAS INVENTADAS</text>
 <rect x="938" y="25" width="3" height="3" fill="#4ADE80" class="pulse"/>
 <text x="950" y="34" font-size="9" fill="#4ADE80" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1.4">EN VIVO</text>
-<text x="1024" y="34" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">· 19 NOV 2026 · 11:17 COT</text>
+<text x="1024" y="34" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">· 19 NOV 2026 · 11:20 COT</text>
 <text x="1168" y="50" font-size="8.5" fill="#8B98AB" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">ACTUALIZACIÓN AUTOMÁTICA</text>
 <text x="32" y="88" font-size="10" fill="#00F7FF" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="2.4">CALENDARIO DE ACTIVIDAD</text>
 <text x="1168" y="88" font-size="8.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">369 DÍAS · 53 SEMANAS</text>
@@ -438,12 +438,12 @@
 <rect x="984" y="128" width="15" height="15" fill="#111A2B"/>
 <rect x="984" y="146" width="15" height="15" fill="#111A2B"/>
 <rect x="984" y="164" width="15" height="15" fill="#111A2B"/>
-<g><title>18 NOV 2026 · 6 contribuciones</title>
-<rect x="984" y="182" width="15" height="15" fill="#FFD166"/>
+<g><title>18 NOV 2026 · 7 contribuciones</title>
+<rect x="984" y="182" width="15" height="15" fill="#FF3D8B"/>
 <rect x="984" y="182" width="15" height="1" fill="#FFFFFF" opacity="0.2"/>
 <rect x="984" y="182" width="1" height="15" fill="#FFFFFF" opacity="0.1"/>
 </g>
-<g><title>19 NOV 2026 · 3 contribuciones</title>
+<g><title>19 NOV 2026 · 2 contribuciones</title>
 <rect x="984" y="200" width="15" height="15" fill="#00A8B8"/>
 <rect x="984" y="200" width="15" height="1" fill="#FFFFFF" opacity="0.2"/>
 <rect x="984" y="200" width="1" height="15" fill="#FFFFFF" opacity="0.1"/>

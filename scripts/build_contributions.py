@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the real GitHub contribution calendar as a pixel-art SVG.
+"""Render the real GitHub contribution calendar as a pixel-art SVG (enhanced edition).
 
 Public data only. The script talks to the GitHub GraphQL API with the token in
 GITHUB_TOKEN, or reads a cached JSON payload with --data for local design work.
@@ -16,8 +16,6 @@ import html
 import json
 import os
 import pathlib
-import re
-import sys
 import urllib.request
 
 DEFAULT_LOGIN = "nicolasmoncada160622-prog"
@@ -42,6 +40,8 @@ YELLOW = "#FFD166"
 ORANGE = "#FF9E4A"
 GREEN = "#4ADE80"
 BLUE = "#70A5FD"
+PURPLE = "#7C4DFF"
+TEAL = "#00E6A8"
 
 # Contribution heat: empty -> max
 CELL_EMPTY = "#111A2B"
@@ -563,3 +563,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
