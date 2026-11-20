@@ -2,8 +2,8 @@
   "status": "active",
   "engine": "profile-engine",
   "timezone": "America/Bogota",
-  "last_sync_local": "19 NOV 2026 · 12:10 COT",
-  "last_sync_utc": "2026-11-19T17:10:29Z",
+  "last_sync_local": "20 NOV 2026 · 01:20 COT",
+  "last_sync_utc": "2026-11-20T06:20:38Z",
   "profile": {
     "login": "nicolasmoncada160622-prog",
     "total_contributions": 11,
@@ -14,7 +14,7 @@
     "pull_requests": 0,
     "issues": 0,
     "public_repos": 2,
-    "days_on_github": 81,
+    "days_on_github": 82,
     "account_created": "2026-08-31"
   },
   "data_policy": "public GitHub data only; no invented metrics"
