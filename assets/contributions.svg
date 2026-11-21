@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-labelledby="ctTitle ctDesc" shape-rendering="crispEdges">
 <title id="ctTitle">Contribuciones reales de Nicolás Moncada Montaño</title>
-<desc id="ctDesc">Calendario público de GitHub con 11 contribuciones, 3 días activos y una racha actual de 2 días. Se actualiza automáticamente.</desc>
+<desc id="ctDesc">Calendario público de GitHub con 11 contribuciones, 3 días activos y una racha actual de 0 días. Se actualiza automáticamente.</desc>
 <defs>
 <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0C1424"/><stop offset="0.55" stop-color="#090D17"/><stop offset="1" stop-color="#140C1C"/></linearGradient>
 <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00F7FF"/><stop offset="0.5" stop-color="#70A5FD"/><stop offset="1" stop-color="#FF3D8B"/></linearGradient>
@@ -46,10 +46,10 @@
 <text x="78" y="53" font-size="9" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.6">DATOS REALES · SIN MÉTRICAS INVENTADAS</text>
 <rect x="938" y="25" width="3" height="3" fill="#4ADE80" class="pulse"/>
 <text x="950" y="34" font-size="9" fill="#4ADE80" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1.4">EN VIVO</text>
-<text x="1024" y="34" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">· 20 NOV 2026 · 11:47 COT</text>
+<text x="1024" y="34" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">· 21 NOV 2026 · 01:10 COT</text>
 <text x="1168" y="50" font-size="8.5" fill="#8B98AB" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">ACTUALIZACIÓN AUTOMÁTICA</text>
 <text x="32" y="88" font-size="10" fill="#00F7FF" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="2.4">CALENDARIO DE ACTIVIDAD</text>
-<text x="1168" y="88" font-size="8.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">370 DÍAS · 53 SEMANAS</text>
+<text x="1168" y="88" font-size="8.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">371 DÍAS · 53 SEMANAS</text>
 <rect x="32" y="96" width="1136" height="232" fill="#0B1220" opacity="0.82"/>
 <rect x="32" y="96" width="1136" height="232" fill="none" stroke="#22304A" stroke-width="1"/>
 <rect x="32" y="96" width="1136" height="2" fill="url(#cardTop)" opacity="0.7"/>
@@ -449,8 +449,8 @@
 <rect x="984" y="200" width="1" height="15" fill="#FFFFFF" opacity="0.1"/>
 </g>
 <rect x="984" y="218" width="15" height="15" fill="#111A2B"/>
-<rect x="982" y="216" width="19" height="19" fill="none" stroke="#00F7FF" stroke-width="1"/>
-<rect x="984" y="236" width="15" height="15" fill="#0C1320" opacity="0.35"/>
+<rect x="984" y="236" width="15" height="15" fill="#111A2B"/>
+<rect x="982" y="234" width="19" height="19" fill="none" stroke="#00F7FF" stroke-width="1"/>
 <text x="408" y="196" font-size="9" fill="#2A405C" text-anchor="middle" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="3.2" opacity="0.75">ANTES DE MI CUENTA</text>
 <text x="36" y="156" font-size="7.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="0.5">LUN</text>
 <text x="36" y="192" font-size="7.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="0.5">MIÉ</text>
@@ -483,13 +483,13 @@
 <text x="330" y="368" font-size="9" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1.8">DÍAS ACTIVOS</text>
 <rect x="558" y="360" width="3" height="3" fill="#4ADE80" class="pulse"/>
 <text x="330" y="410" font-size="36" fill="#4ADE80" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1">03</text>
-<text x="330" y="433" font-size="8.5" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.5">DE 82 DÍAS EN GITHUB</text>
+<text x="330" y="433" font-size="8.5" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.5">DE 83 DÍAS EN GITHUB</text>
 <rect x="592" y="344" width="264" height="108" fill="#0B1220" opacity="0.78"/>
 <rect x="592" y="344" width="264" height="108" fill="none" stroke="#22304A" stroke-width="1"/>
 <rect x="592" y="344" width="264" height="2" fill="#FF3D8B" opacity="0.7"/>
 <text x="610" y="368" font-size="9" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1.8">RACHA ACTUAL</text>
 <rect x="838" y="360" width="3" height="3" fill="#FF3D8B" class="pulse"/>
-<text x="610" y="410" font-size="36" fill="#FF3D8B" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1">02</text>
+<text x="610" y="410" font-size="36" fill="#FF3D8B" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1">00</text>
 <text x="610" y="433" font-size="8.5" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.5">MEJOR: 02 DÍAS</text>
 <rect x="872" y="344" width="264" height="108" fill="#0B1220" opacity="0.78"/>
 <rect x="872" y="344" width="264" height="108" fill="none" stroke="#22304A" stroke-width="1"/>
