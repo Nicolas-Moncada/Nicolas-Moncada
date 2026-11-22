@@ -46,10 +46,10 @@
 <text x="78" y="53" font-size="9" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.6">DATOS REALES · SIN MÉTRICAS INVENTADAS</text>
 <rect x="938" y="25" width="3" height="3" fill="#4ADE80" class="pulse"/>
 <text x="950" y="34" font-size="9" fill="#4ADE80" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1.4">EN VIVO</text>
-<text x="1024" y="34" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">· 21 NOV 2026 · 16:35 COT</text>
+<text x="1024" y="34" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">· 22 NOV 2026 · 00:44 COT</text>
 <text x="1168" y="50" font-size="8.5" fill="#8B98AB" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">ACTUALIZACIÓN AUTOMÁTICA</text>
 <text x="32" y="88" font-size="10" fill="#00F7FF" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="2.4">CALENDARIO DE ACTIVIDAD</text>
-<text x="1168" y="88" font-size="8.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">371 DÍAS · 53 SEMANAS</text>
+<text x="1168" y="88" font-size="8.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">365 DÍAS · 53 SEMANAS</text>
 <rect x="32" y="96" width="1136" height="232" fill="#0B1220" opacity="0.82"/>
 <rect x="32" y="96" width="1136" height="232" fill="none" stroke="#22304A" stroke-width="1"/>
 <rect x="32" y="96" width="1136" height="2" fill="url(#cardTop)" opacity="0.7"/>
@@ -69,6 +69,7 @@
 <rect x="66" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="66" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="66" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
+<text x="84" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">DIC</text>
 <rect x="84" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="84" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="84" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -76,7 +77,6 @@
 <rect x="84" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="84" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="84" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<text x="102" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">DIC</text>
 <rect x="102" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="102" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="102" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -98,6 +98,7 @@
 <rect x="138" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="138" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="138" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
+<text x="156" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">ENE</text>
 <rect x="156" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="156" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="156" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -105,7 +106,6 @@
 <rect x="156" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="156" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="156" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<text x="174" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">ENE</text>
 <rect x="174" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="174" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="174" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -127,6 +127,7 @@
 <rect x="210" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="210" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="210" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
+<text x="228" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">FEB</text>
 <rect x="228" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="228" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="228" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -134,7 +135,6 @@
 <rect x="228" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="228" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="228" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<text x="246" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">FEB</text>
 <rect x="246" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="246" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="246" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -156,6 +156,7 @@
 <rect x="282" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="282" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="282" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
+<text x="300" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">MAR</text>
 <rect x="300" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="300" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="300" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -163,7 +164,6 @@
 <rect x="300" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="300" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="300" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<text x="318" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">MAR</text>
 <rect x="318" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="318" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="318" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -192,6 +192,7 @@
 <rect x="372" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="372" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="372" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
+<text x="390" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">ABR</text>
 <rect x="390" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="390" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="390" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -199,7 +200,6 @@
 <rect x="390" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="390" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="390" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<text x="408" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">ABR</text>
 <rect x="408" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="408" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="408" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -221,6 +221,7 @@
 <rect x="444" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="444" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="444" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
+<text x="462" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">MAY</text>
 <rect x="462" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="462" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="462" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -228,7 +229,6 @@
 <rect x="462" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="462" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="462" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<text x="480" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">MAY</text>
 <rect x="480" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="480" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="480" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -257,6 +257,7 @@
 <rect x="534" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="534" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="534" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
+<text x="552" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">JUN</text>
 <rect x="552" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="552" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="552" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -264,7 +265,6 @@
 <rect x="552" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="552" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="552" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<text x="570" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">JUN</text>
 <rect x="570" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="570" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="570" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -286,6 +286,7 @@
 <rect x="606" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="606" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="606" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
+<text x="624" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">JUL</text>
 <rect x="624" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="624" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="624" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -293,7 +294,6 @@
 <rect x="624" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="624" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="624" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<text x="642" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">JUL</text>
 <rect x="642" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="642" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="642" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -315,6 +315,7 @@
 <rect x="678" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="678" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="678" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
+<text x="696" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">AGO</text>
 <rect x="696" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="696" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="696" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -322,7 +323,6 @@
 <rect x="696" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="696" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="696" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<text x="714" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">AGO</text>
 <rect x="714" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="714" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="714" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
@@ -345,24 +345,24 @@
 <rect x="750" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="750" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <rect x="768" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<rect x="768" y="146" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<rect x="768" y="164" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<rect x="768" y="182" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<rect x="768" y="200" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<rect x="768" y="218" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<rect x="768" y="236" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
-<rect x="786" y="128" width="15" height="15" fill="url(#pre)" opacity="0.55"/>
 <g><title>31 AGO 2026 · 1 contribución</title>
-<rect x="786" y="146" width="15" height="15" fill="#1E6E7A"/>
-<rect x="786" y="146" width="15" height="1" fill="#FFFFFF" opacity="0.2"/>
-<rect x="786" y="146" width="1" height="15" fill="#FFFFFF" opacity="0.1"/>
+<rect x="768" y="146" width="15" height="15" fill="#1E6E7A"/>
+<rect x="768" y="146" width="15" height="1" fill="#FFFFFF" opacity="0.2"/>
+<rect x="768" y="146" width="1" height="15" fill="#FFFFFF" opacity="0.1"/>
 </g>
+<rect x="768" y="164" width="15" height="15" fill="#111A2B"/>
+<rect x="768" y="182" width="15" height="15" fill="#111A2B"/>
+<rect x="768" y="200" width="15" height="15" fill="#111A2B"/>
+<rect x="768" y="218" width="15" height="15" fill="#111A2B"/>
+<rect x="768" y="236" width="15" height="15" fill="#111A2B"/>
+<text x="786" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">SEP</text>
+<rect x="786" y="128" width="15" height="15" fill="#111A2B"/>
+<rect x="786" y="146" width="15" height="15" fill="#111A2B"/>
 <rect x="786" y="164" width="15" height="15" fill="#111A2B"/>
 <rect x="786" y="182" width="15" height="15" fill="#111A2B"/>
 <rect x="786" y="200" width="15" height="15" fill="#111A2B"/>
 <rect x="786" y="218" width="15" height="15" fill="#111A2B"/>
 <rect x="786" y="236" width="15" height="15" fill="#111A2B"/>
-<text x="804" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">SEP</text>
 <rect x="804" y="128" width="15" height="15" fill="#111A2B"/>
 <rect x="804" y="146" width="15" height="15" fill="#111A2B"/>
 <rect x="804" y="164" width="15" height="15" fill="#111A2B"/>
@@ -384,6 +384,7 @@
 <rect x="840" y="200" width="15" height="15" fill="#111A2B"/>
 <rect x="840" y="218" width="15" height="15" fill="#111A2B"/>
 <rect x="840" y="236" width="15" height="15" fill="#111A2B"/>
+<text x="858" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">OCT</text>
 <rect x="858" y="128" width="15" height="15" fill="#111A2B"/>
 <rect x="858" y="146" width="15" height="15" fill="#111A2B"/>
 <rect x="858" y="164" width="15" height="15" fill="#111A2B"/>
@@ -391,7 +392,6 @@
 <rect x="858" y="200" width="15" height="15" fill="#111A2B"/>
 <rect x="858" y="218" width="15" height="15" fill="#111A2B"/>
 <rect x="858" y="236" width="15" height="15" fill="#111A2B"/>
-<text x="876" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">OCT</text>
 <rect x="876" y="128" width="15" height="15" fill="#111A2B"/>
 <rect x="876" y="146" width="15" height="15" fill="#111A2B"/>
 <rect x="876" y="164" width="15" height="15" fill="#111A2B"/>
@@ -413,6 +413,7 @@
 <rect x="912" y="200" width="15" height="15" fill="#111A2B"/>
 <rect x="912" y="218" width="15" height="15" fill="#111A2B"/>
 <rect x="912" y="236" width="15" height="15" fill="#111A2B"/>
+<text x="930" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">NOV</text>
 <rect x="930" y="128" width="15" height="15" fill="#111A2B"/>
 <rect x="930" y="146" width="15" height="15" fill="#111A2B"/>
 <rect x="930" y="164" width="15" height="15" fill="#111A2B"/>
@@ -420,7 +421,6 @@
 <rect x="930" y="200" width="15" height="15" fill="#111A2B"/>
 <rect x="930" y="218" width="15" height="15" fill="#111A2B"/>
 <rect x="930" y="236" width="15" height="15" fill="#111A2B"/>
-<text x="948" y="117" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">NOV</text>
 <rect x="948" y="128" width="15" height="15" fill="#111A2B"/>
 <rect x="948" y="146" width="15" height="15" fill="#111A2B"/>
 <rect x="948" y="164" width="15" height="15" fill="#111A2B"/>
@@ -431,26 +431,26 @@
 <rect x="966" y="128" width="15" height="15" fill="#111A2B"/>
 <rect x="966" y="146" width="15" height="15" fill="#111A2B"/>
 <rect x="966" y="164" width="15" height="15" fill="#111A2B"/>
-<rect x="966" y="182" width="15" height="15" fill="#111A2B"/>
-<rect x="966" y="200" width="15" height="15" fill="#111A2B"/>
+<g><title>18 NOV 2026 · 6 contribuciones</title>
+<rect x="966" y="182" width="15" height="15" fill="#FFD166"/>
+<rect x="966" y="182" width="15" height="1" fill="#FFFFFF" opacity="0.2"/>
+<rect x="966" y="182" width="1" height="15" fill="#FFFFFF" opacity="0.1"/>
+</g>
+<g><title>19 NOV 2026 · 4 contribuciones</title>
+<rect x="966" y="200" width="15" height="15" fill="#FFD166"/>
+<rect x="966" y="200" width="15" height="1" fill="#FFFFFF" opacity="0.2"/>
+<rect x="966" y="200" width="1" height="15" fill="#FFFFFF" opacity="0.1"/>
+</g>
 <rect x="966" y="218" width="15" height="15" fill="#111A2B"/>
 <rect x="966" y="236" width="15" height="15" fill="#111A2B"/>
 <rect x="984" y="128" width="15" height="15" fill="#111A2B"/>
-<rect x="984" y="146" width="15" height="15" fill="#111A2B"/>
-<rect x="984" y="164" width="15" height="15" fill="#111A2B"/>
-<g><title>18 NOV 2026 · 6 contribuciones</title>
-<rect x="984" y="182" width="15" height="15" fill="#FFD166"/>
-<rect x="984" y="182" width="15" height="1" fill="#FFFFFF" opacity="0.2"/>
-<rect x="984" y="182" width="1" height="15" fill="#FFFFFF" opacity="0.1"/>
-</g>
-<g><title>19 NOV 2026 · 4 contribuciones</title>
-<rect x="984" y="200" width="15" height="15" fill="#FFD166"/>
-<rect x="984" y="200" width="15" height="1" fill="#FFFFFF" opacity="0.2"/>
-<rect x="984" y="200" width="1" height="15" fill="#FFFFFF" opacity="0.1"/>
-</g>
-<rect x="984" y="218" width="15" height="15" fill="#111A2B"/>
-<rect x="984" y="236" width="15" height="15" fill="#111A2B"/>
-<rect x="982" y="234" width="19" height="19" fill="none" stroke="#00F7FF" stroke-width="1"/>
+<rect x="982" y="126" width="19" height="19" fill="none" stroke="#00F7FF" stroke-width="1"/>
+<rect x="984" y="146" width="15" height="15" fill="#0C1320" opacity="0.35"/>
+<rect x="984" y="164" width="15" height="15" fill="#0C1320" opacity="0.35"/>
+<rect x="984" y="182" width="15" height="15" fill="#0C1320" opacity="0.35"/>
+<rect x="984" y="200" width="15" height="15" fill="#0C1320" opacity="0.35"/>
+<rect x="984" y="218" width="15" height="15" fill="#0C1320" opacity="0.35"/>
+<rect x="984" y="236" width="15" height="15" fill="#0C1320" opacity="0.35"/>
 <text x="408" y="196" font-size="9" fill="#2A405C" text-anchor="middle" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="3.2" opacity="0.75">ANTES DE MI CUENTA</text>
 <text x="36" y="156" font-size="7.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="0.5">LUN</text>
 <text x="36" y="192" font-size="7.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="0.5">MIÉ</text>
@@ -483,7 +483,7 @@
 <text x="330" y="368" font-size="9" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1.8">DÍAS ACTIVOS</text>
 <rect x="558" y="360" width="3" height="3" fill="#4ADE80" class="pulse"/>
 <text x="330" y="410" font-size="36" fill="#4ADE80" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1">03</text>
-<text x="330" y="433" font-size="8.5" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.5">DE 83 DÍAS EN GITHUB</text>
+<text x="330" y="433" font-size="8.5" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.5">DE 84 DÍAS EN GITHUB</text>
 <rect x="592" y="344" width="264" height="108" fill="#0B1220" opacity="0.78"/>
 <rect x="592" y="344" width="264" height="108" fill="none" stroke="#22304A" stroke-width="1"/>
 <rect x="592" y="344" width="264" height="2" fill="#FF3D8B" opacity="0.7"/>
