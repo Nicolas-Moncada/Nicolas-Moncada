@@ -46,10 +46,10 @@
 <text x="78" y="53" font-size="9" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.6">DATOS REALES · SIN MÉTRICAS INVENTADAS</text>
 <rect x="938" y="25" width="3" height="3" fill="#4ADE80" class="pulse"/>
 <text x="950" y="34" font-size="9" fill="#4ADE80" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="1.4">EN VIVO</text>
-<text x="1024" y="34" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">· 24 NOV 2026 · 03:59 COT</text>
+<text x="1024" y="34" font-size="8" fill="#8B98AB" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="0.6">· 24 NOV 2026 · 19:26 COT</text>
 <text x="1168" y="50" font-size="8.5" fill="#8B98AB" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">ACTUALIZACIÓN AUTOMÁTICA</text>
 <text x="32" y="88" font-size="10" fill="#00F7FF" text-anchor="start" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' font-weight="700" letter-spacing="2.4">CALENDARIO DE ACTIVIDAD</text>
-<text x="1168" y="88" font-size="8.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">367 DÍAS · 53 SEMANAS</text>
+<text x="1168" y="88" font-size="8.5" fill="#4F6079" text-anchor="end" font-family='"Cascadia Mono", "Consolas", "Courier New", monospace' letter-spacing="1.2">368 DÍAS · 53 SEMANAS</text>
 <rect x="32" y="96" width="1136" height="232" fill="#0B1220" opacity="0.82"/>
 <rect x="32" y="96" width="1136" height="232" fill="none" stroke="#22304A" stroke-width="1"/>
 <rect x="32" y="96" width="1136" height="2" fill="url(#cardTop)" opacity="0.7"/>
@@ -447,7 +447,7 @@
 <rect x="984" y="146" width="15" height="15" fill="#111A2B"/>
 <rect x="984" y="164" width="15" height="15" fill="#111A2B"/>
 <rect x="982" y="162" width="19" height="19" fill="none" stroke="#00F7FF" stroke-width="1"/>
-<rect x="984" y="182" width="15" height="15" fill="#0C1320" opacity="0.35"/>
+<rect x="984" y="182" width="15" height="15" fill="#111A2B"/>
 <rect x="984" y="200" width="15" height="15" fill="#0C1320" opacity="0.35"/>
 <rect x="984" y="218" width="15" height="15" fill="#0C1320" opacity="0.35"/>
 <rect x="984" y="236" width="15" height="15" fill="#0C1320" opacity="0.35"/>
