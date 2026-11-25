@@ -1,0 +1,506 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 456" width="100%" role="img" aria-labelledby="ct_lightTitle ct_lightDesc">
+<title id="ct_lightTitle">Mapa de calor pixel de contribuciones de Nicolas-Moncada (light)</title>
+<desc id="ct_lightDesc">11 contribuciones, racha actual de 0 días, 3 días activos y 4 repos públicos.</desc>
+<defs>
+<pattern id="ct_lightBg" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#F4F1EA"/><rect x="0" y="0" width="4" height="4" fill="#E8E2D4"/></pattern>
+<pattern id="ct_lightScan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#1E2433" opacity="0.03"/></pattern>
+<style>
+
+        .ct-pulse { animation: ctPulse 2.2s ease-in-out infinite; }
+        .led-wave { animation: ledWave 4.6s ease-in-out infinite; }
+        @keyframes ctPulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+        @keyframes ledWave {
+          0%, 100% { opacity: 0.78; }
+          35% { opacity: 1; }
+        }
+        @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+        
+</style>
+</defs>
+<rect x="0" y="0" width="900" height="456" fill="url(#ct_lightBg)" shape-rendering="crispEdges"/>
+<g shape-rendering="crispEdges">
+<path d="M20 12 H884 V16 H888 V20 H892 V440 H888 V444 H884 V448 H20 V444 H16 V440 H12 V20 H16 V16 H20 Z" fill="#C9C2B2" opacity="0.9"/>
+<path d="M16 8 H880 V12 H884 V16 H888 V436 H884 V440 H880 V444 H16 V440 H12 V436 H8 V16 H12 V12 H16 Z" fill="#FFFFFF" stroke="#1E2433" stroke-width="2"/>
+<path d="M16 12 H880 V14 H882 V16 H884 V436 H882 V438 H880 V440 H16 V438 H14 V436 H12 V16 H14 V14 H16 Z" fill="none" stroke="#15803D" stroke-width="1" opacity="0.35"/>
+<rect x="20" y="10" width="856" height="3" fill="#15803D" opacity="0.9"/>
+<rect x="16" y="12" width="4" height="4" fill="#15803D" opacity="0.85"/>
+<rect x="876" y="12" width="4" height="4" fill="#15803D" opacity="0.85"/>
+<rect x="16" y="436" width="4" height="4" fill="#15803D" opacity="0.85"/>
+<rect x="876" y="436" width="4" height="4" fill="#15803D" opacity="0.85"/>
+</g>
+<rect x="20" y="20" width="856" height="38" fill="#E8E2D4" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<g shape-rendering="crispEdges"><path d="M36 33h8v2h-8zM36 35h2v2h-2zM44 35h2v2h-2zM36 37h2v2h-2zM44 37h2v2h-2zM36 39h8v2h-8zM36 41h2v2h-2zM40 41h2v2h-2zM36 43h2v2h-2zM42 43h2v2h-2zM36 45h2v2h-2zM44 45h2v2h-2zM50 33h6v2h-6zM48 35h2v2h-2zM56 35h2v2h-2zM48 37h2v2h-2zM56 37h2v2h-2zM48 39h10v2h-10zM48 41h2v2h-2zM56 41h2v2h-2zM48 43h2v2h-2zM56 43h2v2h-2zM48 45h2v2h-2zM56 45h2v2h-2zM60 33h8v2h-8zM60 35h2v2h-2zM68 35h2v2h-2zM60 37h2v2h-2zM68 37h2v2h-2zM60 39h2v2h-2zM68 39h2v2h-2zM60 41h2v2h-2zM68 41h2v2h-2zM60 43h2v2h-2zM68 43h2v2h-2zM60 45h8v2h-8zM74 33h6v2h-6zM72 35h2v2h-2zM80 35h2v2h-2zM72 37h2v2h-2zM80 37h2v2h-2zM72 39h10v2h-10zM72 41h2v2h-2zM80 41h2v2h-2zM72 43h2v2h-2zM80 43h2v2h-2zM72 45h2v2h-2zM80 45h2v2h-2zM84 33h8v2h-8zM84 35h2v2h-2zM92 35h2v2h-2zM84 37h2v2h-2zM92 37h2v2h-2zM84 39h8v2h-8zM84 41h2v2h-2zM88 41h2v2h-2zM84 43h2v2h-2zM90 43h2v2h-2zM84 45h2v2h-2zM92 45h2v2h-2zM108 33h8v2h-8zM108 35h2v2h-2zM116 35h2v2h-2zM108 37h2v2h-2zM116 37h2v2h-2zM108 39h2v2h-2zM116 39h2v2h-2zM108 41h2v2h-2zM116 41h2v2h-2zM108 43h2v2h-2zM116 43h2v2h-2zM108 45h8v2h-8zM120 33h10v2h-10zM120 35h2v2h-2zM120 37h2v2h-2zM120 39h8v2h-8zM120 41h2v2h-2zM120 43h2v2h-2zM120 45h10v2h-10zM146 33h6v2h-6zM144 35h2v2h-2zM152 35h2v2h-2zM144 37h2v2h-2zM152 37h2v2h-2zM144 39h10v2h-10zM144 41h2v2h-2zM152 41h2v2h-2zM144 43h2v2h-2zM152 43h2v2h-2zM144 45h2v2h-2zM152 45h2v2h-2zM158 33h8v2h-8zM156 35h2v2h-2zM156 37h2v2h-2zM156 39h2v2h-2zM156 41h2v2h-2zM156 43h2v2h-2zM158 45h8v2h-8zM168 33h10v2h-10zM172 35h2v2h-2zM172 37h2v2h-2zM172 39h2v2h-2zM172 41h2v2h-2zM172 43h2v2h-2zM172 45h2v2h-2zM182 33h6v2h-6zM184 35h2v2h-2zM184 37h2v2h-2zM184 39h2v2h-2zM184 41h2v2h-2zM184 43h2v2h-2zM182 45h6v2h-6zM192 33h2v2h-2zM200 33h2v2h-2zM192 35h2v2h-2zM200 35h2v2h-2zM192 37h2v2h-2zM200 37h2v2h-2zM192 39h2v2h-2zM200 39h2v2h-2zM192 41h2v2h-2zM200 41h2v2h-2zM194 43h2v2h-2zM198 43h2v2h-2zM196 45h2v2h-2zM206 33h6v2h-6zM208 35h2v2h-2zM208 37h2v2h-2zM208 39h2v2h-2zM208 41h2v2h-2zM208 43h2v2h-2zM206 45h6v2h-6zM216 33h8v2h-8zM216 35h2v2h-2zM224 35h2v2h-2zM216 37h2v2h-2zM224 37h2v2h-2zM216 39h2v2h-2zM224 39h2v2h-2zM216 41h2v2h-2zM224 41h2v2h-2zM216 43h2v2h-2zM224 43h2v2h-2zM216 45h8v2h-8zM230 33h6v2h-6zM228 35h2v2h-2zM236 35h2v2h-2zM228 37h2v2h-2zM236 37h2v2h-2zM228 39h10v2h-10zM228 41h2v2h-2zM236 41h2v2h-2zM228 43h2v2h-2zM236 43h2v2h-2zM228 45h2v2h-2zM236 45h2v2h-2zM240 33h8v2h-8zM240 35h2v2h-2zM248 35h2v2h-2zM240 37h2v2h-2zM248 37h2v2h-2zM240 39h2v2h-2zM248 39h2v2h-2zM240 41h2v2h-2zM248 41h2v2h-2zM240 43h2v2h-2zM248 43h2v2h-2zM240 45h8v2h-8z" fill="#15803D"/><path d="M34 31h8v2h-8zM34 33h2v2h-2zM42 33h2v2h-2zM34 35h2v2h-2zM42 35h2v2h-2zM34 37h8v2h-8zM34 39h2v2h-2zM38 39h2v2h-2zM34 41h2v2h-2zM40 41h2v2h-2zM34 43h2v2h-2zM42 43h2v2h-2zM48 31h6v2h-6zM46 33h2v2h-2zM54 33h2v2h-2zM46 35h2v2h-2zM54 35h2v2h-2zM46 37h10v2h-10zM46 39h2v2h-2zM54 39h2v2h-2zM46 41h2v2h-2zM54 41h2v2h-2zM46 43h2v2h-2zM54 43h2v2h-2zM58 31h8v2h-8zM58 33h2v2h-2zM66 33h2v2h-2zM58 35h2v2h-2zM66 35h2v2h-2zM58 37h2v2h-2zM66 37h2v2h-2zM58 39h2v2h-2zM66 39h2v2h-2zM58 41h2v2h-2zM66 41h2v2h-2zM58 43h8v2h-8zM72 31h6v2h-6zM70 33h2v2h-2zM78 33h2v2h-2zM70 35h2v2h-2zM78 35h2v2h-2zM70 37h10v2h-10zM70 39h2v2h-2zM78 39h2v2h-2zM70 41h2v2h-2zM78 41h2v2h-2zM70 43h2v2h-2zM78 43h2v2h-2zM82 31h8v2h-8zM82 33h2v2h-2zM90 33h2v2h-2zM82 35h2v2h-2zM90 35h2v2h-2zM82 37h8v2h-8zM82 39h2v2h-2zM86 39h2v2h-2zM82 41h2v2h-2zM88 41h2v2h-2zM82 43h2v2h-2zM90 43h2v2h-2zM106 31h8v2h-8zM106 33h2v2h-2zM114 33h2v2h-2zM106 35h2v2h-2zM114 35h2v2h-2zM106 37h2v2h-2zM114 37h2v2h-2zM106 39h2v2h-2zM114 39h2v2h-2zM106 41h2v2h-2zM114 41h2v2h-2zM106 43h8v2h-8zM118 31h10v2h-10zM118 33h2v2h-2zM118 35h2v2h-2zM118 37h8v2h-8zM118 39h2v2h-2zM118 41h2v2h-2zM118 43h10v2h-10zM144 31h6v2h-6zM142 33h2v2h-2zM150 33h2v2h-2zM142 35h2v2h-2zM150 35h2v2h-2zM142 37h10v2h-10zM142 39h2v2h-2zM150 39h2v2h-2zM142 41h2v2h-2zM150 41h2v2h-2zM142 43h2v2h-2zM150 43h2v2h-2zM156 31h8v2h-8zM154 33h2v2h-2zM154 35h2v2h-2zM154 37h2v2h-2zM154 39h2v2h-2zM154 41h2v2h-2zM156 43h8v2h-8zM166 31h10v2h-10zM170 33h2v2h-2zM170 35h2v2h-2zM170 37h2v2h-2zM170 39h2v2h-2zM170 41h2v2h-2zM170 43h2v2h-2zM180 31h6v2h-6zM182 33h2v2h-2zM182 35h2v2h-2zM182 37h2v2h-2zM182 39h2v2h-2zM182 41h2v2h-2zM180 43h6v2h-6zM190 31h2v2h-2zM198 31h2v2h-2zM190 33h2v2h-2zM198 33h2v2h-2zM190 35h2v2h-2zM198 35h2v2h-2zM190 37h2v2h-2zM198 37h2v2h-2zM190 39h2v2h-2zM198 39h2v2h-2zM192 41h2v2h-2zM196 41h2v2h-2zM194 43h2v2h-2zM204 31h6v2h-6zM206 33h2v2h-2zM206 35h2v2h-2zM206 37h2v2h-2zM206 39h2v2h-2zM206 41h2v2h-2zM204 43h6v2h-6zM214 31h8v2h-8zM214 33h2v2h-2zM222 33h2v2h-2zM214 35h2v2h-2zM222 35h2v2h-2zM214 37h2v2h-2zM222 37h2v2h-2zM214 39h2v2h-2zM222 39h2v2h-2zM214 41h2v2h-2zM222 41h2v2h-2zM214 43h8v2h-8zM228 31h6v2h-6zM226 33h2v2h-2zM234 33h2v2h-2zM226 35h2v2h-2zM234 35h2v2h-2zM226 37h10v2h-10zM226 39h2v2h-2zM234 39h2v2h-2zM226 41h2v2h-2zM234 41h2v2h-2zM226 43h2v2h-2zM234 43h2v2h-2zM238 31h8v2h-8zM238 33h2v2h-2zM246 33h2v2h-2zM238 35h2v2h-2zM246 35h2v2h-2zM238 37h2v2h-2zM246 37h2v2h-2zM238 39h2v2h-2zM246 39h2v2h-2zM238 41h2v2h-2zM246 41h2v2h-2zM238 43h8v2h-8z" fill="#111827"/></g>
+<rect x="484" y="35" width="8" height="8" fill="#C27803" class="ct-pulse" shape-rendering="crispEdges"/>
+<text x="500" y="44" font-size="11" fill="#C27803" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.8">CACHÉ + REST PÚBLICO</text>
+<text x="858" y="44" font-size="10.5" fill="#64748B" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace">24 NOV 2026 · 19:26 COT</text>
+<g shape-rendering="crispEdges">
+<path d="M33 75 H225 V78 H228 V81 H231 V153 H228 V156 H225 V159 H33 V156 H30 V153 H27 V81 H30 V78 H33 Z" fill="#C9C2B2" opacity="0.9"/>
+<path d="M30 72 H222 V75 H225 V78 H228 V150 H225 V153 H222 V156 H30 V153 H27 V150 H24 V78 H27 V75 H30 Z" fill="#F9F7F2" stroke="#1E2433" stroke-width="2"/>
+<path d="M32 76 H220 V78 H222 V80 H224 V148 H222 V150 H220 V152 H32 V150 H30 V148 H28 V80 H30 V78 H32 Z" fill="none" stroke="#0066CC" stroke-width="1" opacity="0.35"/>
+<rect x="34" y="74" width="184" height="3" fill="#0066CC" opacity="0.9"/>
+<rect x="30" y="76" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+<rect x="218" y="76" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+<rect x="30" y="148" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+<rect x="218" y="148" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+</g>
+<rect x="36" y="98" width="180" height="34" fill="#E8E2D4" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<text x="38" y="92" font-size="10.5" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.5">CONTRIBUCIONES (AÑO)</text>
+<text x="126" y="124" font-size="24" fill="#0066CC" text-anchor="middle" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="2">11</text>
+<text x="38" y="148" font-size="10" fill="#64748B" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.5">ÚLTIMOS 12 MESES</text>
+<g shape-rendering="crispEdges">
+<path d="M249 75 H441 V78 H444 V81 H447 V153 H444 V156 H441 V159 H249 V156 H246 V153 H243 V81 H246 V78 H249 Z" fill="#C9C2B2" opacity="0.9"/>
+<path d="M246 72 H438 V75 H441 V78 H444 V150 H441 V153 H438 V156 H246 V153 H243 V150 H240 V78 H243 V75 H246 Z" fill="#F9F7F2" stroke="#1E2433" stroke-width="2"/>
+<path d="M248 76 H436 V78 H438 V80 H440 V148 H438 V150 H436 V152 H248 V150 H246 V148 H244 V80 H246 V78 H248 Z" fill="none" stroke="#D61F69" stroke-width="1" opacity="0.35"/>
+<rect x="250" y="74" width="184" height="3" fill="#D61F69" opacity="0.9"/>
+<rect x="246" y="76" width="4" height="4" fill="#D61F69" opacity="0.85"/>
+<rect x="434" y="76" width="4" height="4" fill="#D61F69" opacity="0.85"/>
+<rect x="246" y="148" width="4" height="4" fill="#D61F69" opacity="0.85"/>
+<rect x="434" y="148" width="4" height="4" fill="#D61F69" opacity="0.85"/>
+</g>
+<rect x="252" y="98" width="180" height="34" fill="#E8E2D4" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<text x="254" y="92" font-size="10.5" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.5">RACHA ACTUAL</text>
+<text x="342" y="124" font-size="24" fill="#D61F69" text-anchor="middle" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="2">00</text>
+<text x="254" y="148" font-size="10" fill="#64748B" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.5">MEJOR: 02 DÍAS</text>
+<g shape-rendering="crispEdges">
+<path d="M465 75 H657 V78 H660 V81 H663 V153 H660 V156 H657 V159 H465 V156 H462 V153 H459 V81 H462 V78 H465 Z" fill="#C9C2B2" opacity="0.9"/>
+<path d="M462 72 H654 V75 H657 V78 H660 V150 H657 V153 H654 V156 H462 V153 H459 V150 H456 V78 H459 V75 H462 Z" fill="#F9F7F2" stroke="#1E2433" stroke-width="2"/>
+<path d="M464 76 H652 V78 H654 V80 H656 V148 H654 V150 H652 V152 H464 V150 H462 V148 H460 V80 H462 V78 H464 Z" fill="none" stroke="#C27803" stroke-width="1" opacity="0.35"/>
+<rect x="466" y="74" width="184" height="3" fill="#C27803" opacity="0.9"/>
+<rect x="462" y="76" width="4" height="4" fill="#C27803" opacity="0.85"/>
+<rect x="650" y="76" width="4" height="4" fill="#C27803" opacity="0.85"/>
+<rect x="462" y="148" width="4" height="4" fill="#C27803" opacity="0.85"/>
+<rect x="650" y="148" width="4" height="4" fill="#C27803" opacity="0.85"/>
+</g>
+<rect x="468" y="98" width="180" height="34" fill="#E8E2D4" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<text x="470" y="92" font-size="10.5" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.5">DÍAS ACTIVOS</text>
+<text x="558" y="124" font-size="24" fill="#C27803" text-anchor="middle" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="2">03</text>
+<text x="470" y="148" font-size="10" fill="#64748B" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.5">DESDE 31/08/2026</text>
+<g shape-rendering="crispEdges">
+<path d="M681 75 H873 V78 H876 V81 H879 V153 H876 V156 H873 V159 H681 V156 H678 V153 H675 V81 H678 V78 H681 Z" fill="#C9C2B2" opacity="0.9"/>
+<path d="M678 72 H870 V75 H873 V78 H876 V150 H873 V153 H870 V156 H678 V153 H675 V150 H672 V78 H675 V75 H678 Z" fill="#F9F7F2" stroke="#1E2433" stroke-width="2"/>
+<path d="M680 76 H868 V78 H870 V80 H872 V148 H870 V150 H868 V152 H680 V150 H678 V148 H676 V80 H678 V78 H680 Z" fill="none" stroke="#15803D" stroke-width="1" opacity="0.35"/>
+<rect x="682" y="74" width="184" height="3" fill="#15803D" opacity="0.9"/>
+<rect x="678" y="76" width="4" height="4" fill="#15803D" opacity="0.85"/>
+<rect x="866" y="76" width="4" height="4" fill="#15803D" opacity="0.85"/>
+<rect x="678" y="148" width="4" height="4" fill="#15803D" opacity="0.85"/>
+<rect x="866" y="148" width="4" height="4" fill="#15803D" opacity="0.85"/>
+</g>
+<rect x="684" y="98" width="180" height="34" fill="#E8E2D4" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<text x="686" y="92" font-size="10.5" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.5">REPOS PÚBLICOS</text>
+<text x="774" y="124" font-size="24" fill="#15803D" text-anchor="middle" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="2">04</text>
+<text x="686" y="148" font-size="10" fill="#64748B" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.5">COMMITS: 08</text>
+<g shape-rendering="crispEdges">
+<path d="M36 176 H868 V180 H872 V184 H876 V400 H872 V404 H868 V408 H36 V404 H32 V400 H28 V184 H32 V180 H36 Z" fill="#C9C2B2" opacity="0.9"/>
+<path d="M32 172 H864 V176 H868 V180 H872 V396 H868 V400 H864 V404 H32 V400 H28 V396 H24 V180 H28 V176 H32 Z" fill="#F9F7F2" stroke="#1E2433" stroke-width="2"/>
+<path d="M32 176 H864 V178 H866 V180 H868 V396 H866 V398 H864 V400 H32 V398 H30 V396 H28 V180 H30 V178 H32 Z" fill="none" stroke="#0066CC" stroke-width="1" opacity="0.35"/>
+<rect x="32" y="176" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+<rect x="860" y="176" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+<rect x="32" y="396" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+<rect x="860" y="396" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+</g>
+<text x="40" y="196" font-size="11.5" fill="#0066CC" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="1">MATRIZ LED · 53 SEMANAS</text>
+<text x="856" y="196" font-size="10.5" fill="#64748B" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace">DATOS REALES DE GITHUB · SIN MÉTRICAS INVENTADAS</text>
+<text x="68" y="247" font-size="10" fill="#64748B" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">LUN</text>
+<text x="68" y="275" font-size="10" fill="#64748B" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">MIÉ</text>
+<text x="68" y="303" font-size="10" fill="#64748B" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">VIE</text>
+<text x="76" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">NOV</text>
+<rect x="76" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="76" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="76" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="76" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="76" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="76" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="76" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="90" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="90" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="90" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="90" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="90" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="90" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="90" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<text x="104" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">DIC</text>
+<rect x="104" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="104" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="104" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="104" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="104" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="104" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="104" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="118" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="118" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="118" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="118" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="118" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="118" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="118" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="132" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="132" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="132" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="132" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="132" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="132" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="132" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="146" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="146" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="146" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="146" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="146" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="146" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="146" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<text x="160" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">ENE</text>
+<rect x="160" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="160" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="160" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="160" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="160" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="160" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="160" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="174" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="174" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="174" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="174" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="174" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="174" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="174" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="188" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="188" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="188" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="188" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="188" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="188" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="188" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="202" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="202" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="202" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="202" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="202" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="202" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="202" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<text x="216" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">FEB</text>
+<rect x="216" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="216" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="216" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="216" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="216" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="216" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="216" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="230" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="230" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="230" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="230" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="230" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="230" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="230" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="244" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="244" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="244" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="244" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="244" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="244" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="244" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="258" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="258" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="258" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="258" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="258" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="258" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="258" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<text x="272" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">MAR</text>
+<rect x="272" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="272" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="272" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="272" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="272" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="272" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="272" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="286" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="286" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="286" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="286" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="286" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="286" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="286" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="300" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="300" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="300" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="300" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="300" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="300" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="300" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="314" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="314" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="314" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="314" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="314" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="314" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="314" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="328" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="328" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="328" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="328" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="328" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="328" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="328" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<text x="342" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">ABR</text>
+<rect x="342" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="342" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="342" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="342" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="342" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="342" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="342" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="356" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="356" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="356" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="356" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="356" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="356" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="356" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="370" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="370" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="370" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="370" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="370" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="370" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="370" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="384" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="384" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="384" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="384" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="384" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="384" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="384" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<text x="398" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">MAY</text>
+<rect x="398" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="398" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="398" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="398" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="398" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="398" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="398" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="412" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="412" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="412" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="412" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="412" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="412" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="412" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="426" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="426" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="426" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="426" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="426" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="426" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="426" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="440" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="440" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="440" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="440" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="440" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="440" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="440" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="454" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="454" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="454" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="454" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="454" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="454" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="454" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<text x="468" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">JUN</text>
+<rect x="468" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="468" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="468" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="468" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="468" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="468" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="468" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="482" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="482" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="482" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="482" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="482" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="482" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="482" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="496" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="496" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="496" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="496" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="496" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="496" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="496" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="510" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="510" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="510" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="510" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="510" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="510" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="510" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<text x="524" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">JUL</text>
+<rect x="524" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="524" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="524" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="524" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="524" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="524" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="524" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="538" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="538" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="538" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="538" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="538" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="538" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="538" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="552" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="552" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="552" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="552" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="552" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="552" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="552" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="566" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="566" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="566" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="566" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="566" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="566" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="566" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<text x="580" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">AGO</text>
+<rect x="580" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="580" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="580" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="580" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="580" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="580" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="580" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="594" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="594" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="594" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="594" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="594" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="594" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="594" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="608" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="608" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="608" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="608" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="608" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="608" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="608" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="622" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="622" y="238" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="622" y="252" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="622" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="622" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="622" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="622" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="636" y="224" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="636" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.44s"/>
+<rect x="636" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.47s"/>
+<rect x="636" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.51s"/>
+<rect x="636" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.54s"/>
+<rect x="636" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.58s"/>
+<rect x="636" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.61s"/>
+<text x="650" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">SEP</text>
+<rect x="650" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.44s"/>
+<rect x="650" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.47s"/>
+<rect x="650" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.51s"/>
+<rect x="650" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.54s"/>
+<rect x="650" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.58s"/>
+<rect x="650" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.61s"/>
+<rect x="650" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.65s"/>
+<rect x="664" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.47s"/>
+<rect x="664" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.51s"/>
+<rect x="664" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.54s"/>
+<rect x="664" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.58s"/>
+<rect x="664" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.61s"/>
+<rect x="664" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.65s"/>
+<rect x="664" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.68s"/>
+<rect x="678" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.51s"/>
+<rect x="678" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.54s"/>
+<rect x="678" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.58s"/>
+<rect x="678" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.61s"/>
+<rect x="678" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.65s"/>
+<rect x="678" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.68s"/>
+<rect x="678" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.72s"/>
+<rect x="692" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.54s"/>
+<rect x="692" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.58s"/>
+<rect x="692" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.61s"/>
+<rect x="692" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.65s"/>
+<rect x="692" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.68s"/>
+<rect x="692" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.72s"/>
+<rect x="692" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.75s"/>
+<text x="706" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">OCT</text>
+<rect x="706" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.58s"/>
+<rect x="706" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.61s"/>
+<rect x="706" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.65s"/>
+<rect x="706" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.68s"/>
+<rect x="706" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.72s"/>
+<rect x="706" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.75s"/>
+<rect x="706" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.79s"/>
+<rect x="720" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.61s"/>
+<rect x="720" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.65s"/>
+<rect x="720" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.68s"/>
+<rect x="720" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.72s"/>
+<rect x="720" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.75s"/>
+<rect x="720" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.79s"/>
+<rect x="720" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.82s"/>
+<rect x="734" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.65s"/>
+<rect x="734" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.68s"/>
+<rect x="734" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.72s"/>
+<rect x="734" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.75s"/>
+<rect x="734" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.79s"/>
+<rect x="734" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.82s"/>
+<rect x="734" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.86s"/>
+<rect x="748" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.68s"/>
+<rect x="748" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.72s"/>
+<rect x="748" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.75s"/>
+<rect x="748" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.79s"/>
+<rect x="748" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.82s"/>
+<rect x="748" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.86s"/>
+<rect x="748" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.89s"/>
+<text x="762" y="215" font-size="10" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">NOV</text>
+<rect x="762" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.72s"/>
+<rect x="762" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.75s"/>
+<rect x="762" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.79s"/>
+<rect x="762" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.82s"/>
+<rect x="762" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.86s"/>
+<rect x="762" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.89s"/>
+<rect x="762" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.93s"/>
+<rect x="776" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.75s"/>
+<rect x="776" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.79s"/>
+<rect x="776" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.82s"/>
+<rect x="776" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.86s"/>
+<rect x="776" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.89s"/>
+<rect x="776" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.93s"/>
+<rect x="776" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.96s"/>
+<rect x="790" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.79s"/>
+<rect x="790" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.82s"/>
+<rect x="790" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.86s"/>
+<rect x="790" y="266" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.89s"/>
+<rect x="790" y="280" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.93s"/>
+<rect x="790" y="294" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.96s"/>
+<rect x="790" y="308" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:2.00s"/>
+<rect x="804" y="224" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.82s"/>
+<rect x="804" y="238" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.86s"/>
+<rect x="804" y="252" width="11" height="11" fill="#E5DFD2" opacity="0.9" stroke="#C5BEB0" stroke-width="0.8" class="led-wave" shape-rendering="crispEdges" style="animation-delay:1.89s"/>
+<rect x="802.5" y="250.5" width="14" height="14" fill="none" stroke="#0066CC" stroke-width="1.5" shape-rendering="crispEdges"/>
+<rect x="804" y="266" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="804" y="280" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="804" y="294" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<rect x="804" y="308" width="11" height="11" fill="#E8E2D4" opacity="0.35" shape-rendering="crispEdges"/>
+<text x="342" y="275" font-size="10.5" fill="#64748B" text-anchor="middle" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="2" opacity="0.48">ANTES DE MI CUENTA</text>
+<line x1="40" y1="338" x2="856" y2="338" stroke="#1E2433" stroke-width="1"/>
+<text x="40" y="362" font-size="11" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">CUENTA CREADA: 31 AGO 2026</text>
+<text x="40" y="384" font-size="10.5" fill="#64748B" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace">LOGIN: @Nicolas-Moncada · ACTUALIZACIÓN CADA 8H</text>
+<text x="546" y="362" font-size="10.5" fill="#64748B" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">MENOS</text>
+<rect x="556" y="351" width="13" height="13" fill="#E5DFD2" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="574" y="351" width="13" height="13" fill="#BAE6FD" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="592" y="351" width="13" height="13" fill="#0284C7" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="610" y="351" width="13" height="13" fill="#C27803" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="628" y="351" width="13" height="13" fill="#D61F69" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<text x="654" y="362" font-size="10.5" fill="#64748B" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">MÁS</text>
+<rect x="760" y="351" width="13" height="13" fill="none" stroke="#0066CC" stroke-width="1.5" shape-rendering="crispEdges"/>
+<text x="780" y="362" font-size="10.5" fill="#0066CC" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">HOY</text>
+<text x="450" y="434" font-size="11" fill="#475569" text-anchor="middle" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.8">TELEMETRÍA PÚBLICA DE GITHUB · CERO MÉTRICAS INVENTADAS</text>
+<rect x="8" y="8" width="880" height="436" fill="url(#ct_lightScan)" shape-rendering="crispEdges"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436 206" width="100%" role="img" aria-labelledby="lab_next_4_lightTitle lab_next_4_lightDesc">
+<title id="lab_next_4_lightTitle">Próximo nivel en construcción</title>
+<desc id="lab_next_4_lightDesc">Espacio reservado para próximos proyectos públicos en construcción.</desc>
+<defs>
+<pattern id="lab_next_4_lightBg" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#FFFFFF"/><rect x="0" y="0" width="4" height="4" fill="#F9F7F2"/></pattern>
+<pattern id="lab_next_4_lightScan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#1E2433" opacity="0.03"/></pattern>
+<clipPath id="lab_next_4_lightLoadClip"><rect x="24" y="138" width="380" height="14"/></clipPath>
+<style>
+
+        .load-sweep { animation: loadSweep 2.8s linear infinite; }
+        .next-blink { animation: nextBlink 1.5s steps(1,end) infinite; }
+        @keyframes loadSweep {
+          0% { transform: translateX(-80px); }
+          100% { transform: translateX(436px); }
+        }
+        @keyframes nextBlink { 0%,55%{opacity:1} 56%,100%{opacity:0.25} }
+        @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+        
+</style>
+</defs>
+<g shape-rendering="crispEdges">
+<path d="M16 8 H424 V12 H428 V16 H432 V194 H428 V198 H424 V202 H16 V198 H12 V194 H8 V16 H12 V12 H16 Z" fill="#C9C2B2" opacity="0.9"/>
+<path d="M12 4 H420 V8 H424 V12 H428 V190 H424 V194 H420 V198 H12 V194 H8 V190 H4 V12 H8 V8 H12 Z" fill="url(#lab_next_4_lightBg)" stroke="#1E2433" stroke-width="2"/>
+<path d="M12 8 H420 V10 H422 V12 H424 V190 H422 V192 H420 V194 H12 V192 H10 V190 H8 V12 H10 V10 H12 Z" fill="none" stroke="#C27803" stroke-width="1" opacity="0.35"/>
+<rect x="12" y="8" width="4" height="4" fill="#C27803" opacity="0.85"/>
+<rect x="416" y="8" width="4" height="4" fill="#C27803" opacity="0.85"/>
+<rect x="12" y="190" width="4" height="4" fill="#C27803" opacity="0.85"/>
+<rect x="416" y="190" width="4" height="4" fill="#C27803" opacity="0.85"/>
+</g>
+<rect x="16" y="10" width="400" height="10" fill="#C27803" opacity="0.75" shape-rendering="crispEdges"/>
+<text x="24" y="42" font-size="11" fill="#64748B" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="1">SLOT-04 · EXPANSIÓN</text>
+<g shape-rendering="crispEdges"><path d="M26 64h12v3h-12zM26 67h3v3h-3zM38 67h3v3h-3zM26 70h3v3h-3zM38 70h3v3h-3zM26 73h12v3h-12zM26 76h3v3h-3zM26 79h3v3h-3zM26 82h3v3h-3zM44 64h12v3h-12zM44 67h3v3h-3zM56 67h3v3h-3zM44 70h3v3h-3zM56 70h3v3h-3zM44 73h12v3h-12zM44 76h3v3h-3zM50 76h3v3h-3zM44 79h3v3h-3zM53 79h3v3h-3zM44 82h3v3h-3zM56 82h3v3h-3zM71 58h3v3h-3zM68 61h3v3h-3zM65 64h9v3h-9zM62 67h3v3h-3zM74 67h3v3h-3zM62 70h3v3h-3zM74 70h3v3h-3zM62 73h3v3h-3zM74 73h3v3h-3zM62 76h3v3h-3zM74 76h3v3h-3zM62 79h3v3h-3zM74 79h3v3h-3zM65 82h9v3h-9zM80 64h3v3h-3zM92 64h3v3h-3zM80 67h3v3h-3zM92 67h3v3h-3zM83 70h3v3h-3zM89 70h3v3h-3zM86 73h3v3h-3zM83 76h3v3h-3zM89 76h3v3h-3zM80 79h3v3h-3zM92 79h3v3h-3zM80 82h3v3h-3zM92 82h3v3h-3zM101 64h9v3h-9zM104 67h3v3h-3zM104 70h3v3h-3zM104 73h3v3h-3zM104 76h3v3h-3zM104 79h3v3h-3zM101 82h9v3h-9zM116 64h3v3h-3zM128 64h3v3h-3zM116 67h6v3h-6zM125 67h6v3h-6zM116 70h3v3h-3zM122 70h3v3h-3zM128 70h3v3h-3zM116 73h3v3h-3zM128 73h3v3h-3zM116 76h3v3h-3zM128 76h3v3h-3zM116 79h3v3h-3zM128 79h3v3h-3zM116 82h3v3h-3zM128 82h3v3h-3zM137 64h9v3h-9zM134 67h3v3h-3zM146 67h3v3h-3zM134 70h3v3h-3zM146 70h3v3h-3zM134 73h3v3h-3zM146 73h3v3h-3zM134 76h3v3h-3zM146 76h3v3h-3zM134 79h3v3h-3zM146 79h3v3h-3zM137 82h9v3h-9zM170 64h3v3h-3zM182 64h3v3h-3zM170 67h6v3h-6zM182 67h3v3h-3zM170 70h3v3h-3zM176 70h3v3h-3zM182 70h3v3h-3zM170 73h3v3h-3zM179 73h6v3h-6zM170 76h3v3h-3zM182 76h3v3h-3zM170 79h3v3h-3zM182 79h3v3h-3zM170 82h3v3h-3zM182 82h3v3h-3zM191 64h9v3h-9zM194 67h3v3h-3zM194 70h3v3h-3zM194 73h3v3h-3zM194 76h3v3h-3zM194 79h3v3h-3zM191 82h9v3h-9zM206 64h3v3h-3zM218 64h3v3h-3zM206 67h3v3h-3zM218 67h3v3h-3zM206 70h3v3h-3zM218 70h3v3h-3zM206 73h3v3h-3zM218 73h3v3h-3zM206 76h3v3h-3zM218 76h3v3h-3zM209 79h3v3h-3zM215 79h3v3h-3zM212 82h3v3h-3zM224 64h15v3h-15zM224 67h3v3h-3zM224 70h3v3h-3zM224 73h12v3h-12zM224 76h3v3h-3zM224 79h3v3h-3zM224 82h15v3h-15zM242 64h3v3h-3zM242 67h3v3h-3zM242 70h3v3h-3zM242 73h3v3h-3zM242 76h3v3h-3zM242 79h3v3h-3zM242 82h15v3h-15z" fill="#C9C2B2"/><path d="M24 62h12v3h-12zM24 65h3v3h-3zM36 65h3v3h-3zM24 68h3v3h-3zM36 68h3v3h-3zM24 71h12v3h-12zM24 74h3v3h-3zM24 77h3v3h-3zM24 80h3v3h-3zM42 62h12v3h-12zM42 65h3v3h-3zM54 65h3v3h-3zM42 68h3v3h-3zM54 68h3v3h-3zM42 71h12v3h-12zM42 74h3v3h-3zM48 74h3v3h-3zM42 77h3v3h-3zM51 77h3v3h-3zM42 80h3v3h-3zM54 80h3v3h-3zM69 56h3v3h-3zM66 59h3v3h-3zM63 62h9v3h-9zM60 65h3v3h-3zM72 65h3v3h-3zM60 68h3v3h-3zM72 68h3v3h-3zM60 71h3v3h-3zM72 71h3v3h-3zM60 74h3v3h-3zM72 74h3v3h-3zM60 77h3v3h-3zM72 77h3v3h-3zM63 80h9v3h-9zM78 62h3v3h-3zM90 62h3v3h-3zM78 65h3v3h-3zM90 65h3v3h-3zM81 68h3v3h-3zM87 68h3v3h-3zM84 71h3v3h-3zM81 74h3v3h-3zM87 74h3v3h-3zM78 77h3v3h-3zM90 77h3v3h-3zM78 80h3v3h-3zM90 80h3v3h-3zM99 62h9v3h-9zM102 65h3v3h-3zM102 68h3v3h-3zM102 71h3v3h-3zM102 74h3v3h-3zM102 77h3v3h-3zM99 80h9v3h-9zM114 62h3v3h-3zM126 62h3v3h-3zM114 65h6v3h-6zM123 65h6v3h-6zM114 68h3v3h-3zM120 68h3v3h-3zM126 68h3v3h-3zM114 71h3v3h-3zM126 71h3v3h-3zM114 74h3v3h-3zM126 74h3v3h-3zM114 77h3v3h-3zM126 77h3v3h-3zM114 80h3v3h-3zM126 80h3v3h-3zM135 62h9v3h-9zM132 65h3v3h-3zM144 65h3v3h-3zM132 68h3v3h-3zM144 68h3v3h-3zM132 71h3v3h-3zM144 71h3v3h-3zM132 74h3v3h-3zM144 74h3v3h-3zM132 77h3v3h-3zM144 77h3v3h-3zM135 80h9v3h-9zM168 62h3v3h-3zM180 62h3v3h-3zM168 65h6v3h-6zM180 65h3v3h-3zM168 68h3v3h-3zM174 68h3v3h-3zM180 68h3v3h-3zM168 71h3v3h-3zM177 71h6v3h-6zM168 74h3v3h-3zM180 74h3v3h-3zM168 77h3v3h-3zM180 77h3v3h-3zM168 80h3v3h-3zM180 80h3v3h-3zM189 62h9v3h-9zM192 65h3v3h-3zM192 68h3v3h-3zM192 71h3v3h-3zM192 74h3v3h-3zM192 77h3v3h-3zM189 80h9v3h-9zM204 62h3v3h-3zM216 62h3v3h-3zM204 65h3v3h-3zM216 65h3v3h-3zM204 68h3v3h-3zM216 68h3v3h-3zM204 71h3v3h-3zM216 71h3v3h-3zM204 74h3v3h-3zM216 74h3v3h-3zM207 77h3v3h-3zM213 77h3v3h-3zM210 80h3v3h-3zM222 62h15v3h-15zM222 65h3v3h-3zM222 68h3v3h-3zM222 71h12v3h-12zM222 74h3v3h-3zM222 77h3v3h-3zM222 80h15v3h-15zM240 62h3v3h-3zM240 65h3v3h-3zM240 68h3v3h-3zM240 71h3v3h-3zM240 74h3v3h-3zM240 77h3v3h-3zM240 80h15v3h-15z" fill="#111827"/></g>
+<text x="24" y="98" font-size="12.5" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">EN CONSTRUCCIÓN · PRUEBAS EN CURSO</text>
+<rect x="24" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="42" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="60" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="78" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="96" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="114" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="132" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="150" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="168" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="186" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="204" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="222" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="240" y="138" width="14" height="14" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<rect x="258" y="138" width="14" height="14" fill="#E8E2D4" opacity="0.9" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="276" y="138" width="14" height="14" fill="#E8E2D4" opacity="0.9" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="294" y="138" width="14" height="14" fill="#E8E2D4" opacity="0.9" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="312" y="138" width="14" height="14" fill="#E8E2D4" opacity="0.9" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="330" y="138" width="14" height="14" fill="#E8E2D4" opacity="0.9" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="348" y="138" width="14" height="14" fill="#E8E2D4" opacity="0.9" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="366" y="138" width="14" height="14" fill="#E8E2D4" opacity="0.9" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="384" y="138" width="14" height="14" fill="#E8E2D4" opacity="0.9" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<g clip-path="url(#lab_next_4_lightLoadClip)">
+<rect x="24" y="138" width="64" height="14" fill="#FFFFFF" opacity="0.65" class="load-sweep" shape-rendering="crispEdges"/>
+</g>
+<text x="408" y="180" font-size="11" fill="#C27803" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="1" class="next-blink">LOADING...</text>
+<rect x="4" y="4" width="424" height="194" fill="url(#lab_next_4_lightScan)" shape-rendering="crispEdges"/>
+</svg>

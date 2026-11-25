@@ -1,0 +1,373 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" role="img" aria-labelledby="hero_lightTitle hero_lightDesc">
+<title id="hero_lightTitle">NICOLÁS — Habitación gamer 16-bit (light)</title>
+<desc id="hero_lightDesc">Escena pixel art de Nicolás Moncada Montaño, Estudiante de Ingeniería de Sistemas, en Bogotá, Colombia. Incluye HUD arcade, ventana animada, monitor CRT con terminal en bucle, teclado RGB, taza de café, tocadiscos, mini arcade y mascota pixelada.</desc>
+<defs>
+<pattern id="hero_lightWall" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#EFECE3"/><rect x="0" y="0" width="4" height="4" fill="#E5E0D2"/></pattern>
+<pattern id="hero_lightSky01" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#1D63B8"/><rect x="0" y="0" width="4" height="4" fill="#3B82F6"/><rect x="4" y="4" width="4" height="4" fill="#3B82F6"/></pattern>
+<pattern id="hero_lightSky12" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#3B82F6"/><rect x="0" y="0" width="4" height="4" fill="#7DD3FC"/><rect x="4" y="4" width="4" height="4" fill="#7DD3FC"/></pattern>
+<pattern id="hero_lightSky23" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#7DD3FC"/><rect x="0" y="0" width="4" height="4" fill="#FEF08A"/><rect x="4" y="4" width="4" height="4" fill="#FEF08A"/></pattern>
+<pattern id="hero_lightRug" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#DBEAFE"/><rect x="0" y="0" width="4" height="4" fill="#BFDBFE"/><rect x="4" y="4" width="4" height="4" fill="#BFDBFE"/></pattern>
+<pattern id="hero_lightScan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#1E2433" opacity="0.03"/></pattern>
+<clipPath id="hero_lightWinClip"><rect x="32" y="60" width="248" height="152"/></clipPath>
+<clipPath id="hero_lightCrtClip"><rect x="304" y="128" width="176" height="72"/></clipPath>
+<clipPath id="hero_lightCabClip"><rect x="760" y="200" width="84" height="44"/></clipPath>
+<style>
+
+      .led-pulse { animation: ledPulse 2s ease-in-out infinite; }
+      .ant-blink { animation: hardBlink 1.4s steps(1,end) infinite; }
+      .twinkle-a { animation: twinkle 3.2s ease-in-out infinite; }
+      .twinkle-b { animation: twinkle 4.1s ease-in-out 1.1s infinite; }
+      .twinkle-c { animation: twinkle 2.7s ease-in-out 1.9s infinite; }
+      .shoot-star { animation: shootStar 12s linear infinite; opacity: 0; }
+      .cloud-drift { animation: cloudDrift 18s linear infinite; }
+      .cat-eye { transform-box: fill-box; transform-origin: center; animation: catBlink 5.2s steps(1,end) infinite; }
+      .cat-tail { transform-box: fill-box; transform-origin: 0% 100%; animation: tailWag 3.2s ease-in-out infinite; }
+      .cursor-blink { animation: hardBlink 0.9s steps(1,end) infinite; }
+      .crt-sweep { animation: crtSweep 4.5s linear infinite; }
+      .curtain-1 { animation: cur1 10s steps(12,end) infinite; }
+      .curtain-2 { animation: cur2 10s steps(12,end) infinite; }
+      .curtain-3 { animation: cur3 10s steps(16,end) infinite; }
+      .curtain-4 { animation: cur4 10s steps(24,end) infinite; }
+      .vinyl-spin { transform-box: fill-box; transform-origin: center; animation: spin360 3.2s steps(16,end) infinite; }
+      .note-a { animation: noteFloat 4.2s ease-in-out infinite; }
+      .note-b { animation: noteFloat 4.2s ease-in-out 2.1s infinite; }
+      .steam-a { animation: steamUp 3.2s ease-out infinite; }
+      .steam-b { animation: steamUp 3.2s ease-out 1.1s infinite; }
+      .steam-c { animation: steamUp 3.2s ease-out 2.2s infinite; }
+      .rgb-key { animation: rgbPulse 2.8s ease-in-out infinite; }
+      .invader-patrol { animation: patrol 4.6s steps(10,end) infinite alternate; }
+      .xp-shimmer { animation: xpPulse 2.4s ease-in-out infinite; }
+      .glitch-cyan { animation: glitchA 6.5s steps(1,end) infinite; }
+      .glitch-mag { animation: glitchB 6.5s steps(1,end) infinite; }
+      .hero-pulse { animation: heroPulse 4s ease-in-out infinite; }
+
+      @keyframes ledPulse { 0%,100%{opacity:0.45} 50%{opacity:1} }
+      @keyframes hardBlink { 0%,49%{opacity:1} 50%,100%{opacity:0.12} }
+      @keyframes twinkle { 0%,100%{opacity:0.2} 50%{opacity:1} }
+      @keyframes shootStar {
+        0%, 74% { transform: translate(0,0); opacity: 0; }
+        76% { opacity: 1; }
+        84% { transform: translate(84px, 34px); opacity: 0; }
+        100% { opacity: 0; }
+      }
+      @keyframes cloudDrift {
+        0% { transform: translateX(-28px); }
+        100% { transform: translateX(260px); }
+      }
+      @keyframes catBlink {
+        0%, 90%, 96%, 100% { transform: scaleY(1); }
+        92%, 94% { transform: scaleY(0.15); }
+      }
+      @keyframes tailWag {
+        0%,100% { transform: rotate(0deg); }
+        50% { transform: rotate(8deg); }
+      }
+      @keyframes crtSweep {
+        0% { transform: translateY(-4px); opacity: 0; }
+        15% { opacity: 0.35; }
+        85% { opacity: 0.35; }
+        100% { transform: translateY(74px); opacity: 0; }
+      }
+      @keyframes cur1 {
+        0%, 88% { transform: translateX(176px); }
+        92%, 95% { transform: translateX(0); }
+        99%, 100% { transform: translateX(176px); }
+      }
+      @keyframes cur2 {
+        0% { transform: translateX(64px); }
+        14%, 88% { transform: translateX(176px); }
+        92%, 97% { transform: translateX(0); }
+        100% { transform: translateX(64px); }
+      }
+      @keyframes cur3 {
+        0%, 14% { transform: translateX(0); }
+        34%, 88% { transform: translateX(176px); }
+        92%, 100% { transform: translateX(0); }
+      }
+      @keyframes cur4 {
+        0%, 34% { transform: translateX(0); }
+        62%, 88% { transform: translateX(176px); }
+        92%, 100% { transform: translateX(0); }
+      }
+      @keyframes spin360 { to { transform: rotate(360deg); } }
+      @keyframes noteFloat {
+        0% { transform: translate(0, 0); opacity: 0; }
+        20% { opacity: 1; }
+        80% { opacity: 0.9; }
+        100% { transform: translate(10px, -28px); opacity: 0; }
+      }
+      @keyframes steamUp {
+        0% { transform: translate(0, 0); opacity: 0; }
+        25% { opacity: 0.7; }
+        100% { transform: translate(-4px, -20px); opacity: 0; }
+      }
+      @keyframes rgbPulse {
+        0%,100% { opacity: 0.35; }
+        50% { opacity: 0.95; }
+      }
+      @keyframes patrol {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(36px); }
+      }
+      @keyframes xpPulse {
+        0%,100% { opacity: 0.55; }
+        50% { opacity: 1; }
+      }
+      @keyframes heroPulse {
+        0%,100% { opacity: 0.94; }
+        50% { opacity: 1; }
+      }
+      @keyframes glitchA {
+        0%, 88%, 93%, 100% { transform: translate(0, 0); opacity: 0; }
+        89% { transform: translate(-3px, 1px); opacity: 0.75; }
+        91% { transform: translate(2px, -1px); opacity: 0.55; }
+      }
+      @keyframes glitchB {
+        0%, 88%, 93%, 100% { transform: translate(0, 0); opacity: 0; }
+        89% { transform: translate(3px, -1px); opacity: 0.75; }
+        91% { transform: translate(-2px, 1px); opacity: 0.55; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; transition: none !important; }
+        .curtain-1, .curtain-2, .curtain-3, .curtain-4 { display: none !important; }
+        .shoot-star, .glitch-cyan, .glitch-mag { opacity: 0 !important; }
+      }
+    
+</style>
+</defs>
+<rect x="0" y="0" width="900" height="360" fill="#F4F1EA" shape-rendering="crispEdges"/>
+<rect x="0" y="36" width="900" height="256" fill="url(#hero_lightWall)" shape-rendering="crispEdges"/>
+<rect x="40" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="120" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="200" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="280" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="360" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="440" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="520" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="600" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="680" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="760" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="840" y="36" width="4" height="256" fill="#E8E2D4" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="0" y="288" width="900" height="4" fill="#1E2433" shape-rendering="crispEdges"/>
+<rect x="0" y="292" width="900" height="40" fill="#B68A5D" shape-rendering="crispEdges"/>
+<rect x="0" y="304" width="900" height="2" fill="#9B7046" opacity="0.65" shape-rendering="crispEdges"/>
+<rect x="0" y="316" width="900" height="2" fill="#9B7046" opacity="0.65" shape-rendering="crispEdges"/>
+<rect x="0" y="328" width="900" height="2" fill="#9B7046" opacity="0.65" shape-rendering="crispEdges"/>
+<rect x="108" y="304" width="624" height="24" fill="url(#hero_lightRug)" stroke="#1E2433" stroke-width="2" shape-rendering="crispEdges"/>
+<rect x="116" y="308" width="608" height="2" fill="#0066CC" opacity="0.45" shape-rendering="crispEdges"/>
+<rect x="24" y="52" width="264" height="168" fill="#6B472B" stroke="#1E2433" stroke-width="2" shape-rendering="crispEdges"/>
+<rect x="28" y="56" width="256" height="4" fill="#8D613E" shape-rendering="crispEdges"/>
+<g clip-path="url(#hero_lightWinClip)" shape-rendering="crispEdges">
+<rect x="32" y="60" width="248" height="32" fill="#1D63B8"/>
+<rect x="32" y="92" width="248" height="24" fill="url(#hero_lightSky01)"/>
+<rect x="32" y="116" width="248" height="24" fill="#3B82F6"/>
+<rect x="32" y="140" width="248" height="20" fill="url(#hero_lightSky12)"/>
+<rect x="32" y="160" width="248" height="28" fill="#7DD3FC"/>
+<rect x="32" y="188" width="248" height="24" fill="url(#hero_lightSky23)"/>
+<rect x="232" y="72" width="20" height="20" fill="#F59E0B"/>
+<rect x="236" y="76" width="12" height="12" fill="#FEF08A"/>
+<g class="cloud-drift">
+<rect x="40" y="84" width="36" height="12" fill="#FFFFFF"/>
+<rect x="48" y="76" width="20" height="8" fill="#FFFFFF"/>
+<rect x="144" y="100" width="44" height="12" fill="#FFFFFF" opacity="0.9"/>
+<rect x="156" y="92" width="20" height="8" fill="#FFFFFF" opacity="0.9"/>
+</g>
+<path d="M32 192 L64 164 L96 176 L136 148 L176 176 L216 156 L252 172 L280 160 L280 212 L32 212 Z" fill="#475569"/>
+<rect x="36" y="172" width="24" height="40" fill="#334155"/>
+<rect x="40" y="178" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="48" y="178" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="48" y="188" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="40" y="198" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="64" y="156" width="24" height="56" fill="#334155"/>
+<rect x="76" y="162" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="68" y="172" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="68" y="182" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="76" y="182" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="76" y="192" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="68" y="202" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="92" y="180" width="20" height="32" fill="#334155"/>
+<rect x="96" y="186" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="104" y="186" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="104" y="196" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="116" y="148" width="28" height="64" fill="#334155"/>
+<rect x="128" y="136" width="4" height="12" fill="#64748B"/>
+<rect x="128" y="132" width="4" height="4" fill="#DC2626" class="ant-blink"/>
+<rect x="120" y="154" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="136" y="154" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="120" y="164" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="128" y="164" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="128" y="174" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="136" y="174" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="120" y="184" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="136" y="184" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="120" y="194" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="128" y="194" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="128" y="204" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="136" y="204" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="148" y="168" width="24" height="44" fill="#334155"/>
+<rect x="160" y="174" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="152" y="184" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="152" y="194" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="160" y="194" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="160" y="204" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="176" y="152" width="24" height="60" fill="#334155"/>
+<rect x="186" y="140" width="4" height="12" fill="#64748B"/>
+<rect x="186" y="136" width="4" height="4" fill="#DC2626" class="ant-blink"/>
+<rect x="180" y="158" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="180" y="168" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="188" y="168" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="188" y="178" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="180" y="188" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="180" y="198" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="188" y="198" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="204" y="176" width="24" height="36" fill="#334155"/>
+<rect x="216" y="182" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="208" y="192" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="208" y="202" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="216" y="202" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="232" y="160" width="24" height="52" fill="#334155"/>
+<rect x="236" y="166" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="236" y="176" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="244" y="176" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="244" y="186" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="236" y="196" width="4" height="4" fill="#FDE68A" opacity="0.9"/>
+<rect x="260" y="176" width="20" height="36" fill="#334155"/>
+<rect x="264" y="182" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="264" y="192" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="272" y="192" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="272" y="202" width="4" height="4" fill="#C27803" opacity="0.9"/>
+<rect x="154" y="60" width="4" height="152" fill="#6B472B"/>
+<rect x="32" y="134" width="248" height="4" fill="#6B472B"/>
+</g>
+<rect x="16" y="216" width="280" height="12" fill="#6B472B" stroke="#1E2433" stroke-width="2" shape-rendering="crispEdges"/>
+<rect x="18" y="218" width="276" height="3" fill="#8D613E" shape-rendering="crispEdges"/>
+<rect x="244" y="200" width="16" height="16" fill="#B45309" stroke="#1E2433" stroke-width="1" shape-rendering="crispEdges"/>
+<rect x="248" y="184" width="8" height="16" fill="#15803D" shape-rendering="crispEdges"/>
+<rect x="244" y="188" width="4" height="8" fill="#15803D" shape-rendering="crispEdges"/>
+<rect x="256" y="190" width="4" height="6" fill="#15803D" shape-rendering="crispEdges"/>
+<g shape-rendering="crispEdges"><rect x="44" y="176" width="4" height="4" fill="#D97706"/><rect x="72" y="176" width="4" height="4" fill="#D97706"/><rect x="40" y="180" width="12" height="4" fill="#D97706"/><rect x="68" y="180" width="12" height="4" fill="#D97706"/><rect x="40" y="184" width="40" height="4" fill="#D97706"/><rect x="40" y="188" width="8" height="4" fill="#D97706"/><rect x="48" y="188" width="4" height="4" fill="#111827"/><rect x="52" y="188" width="16" height="4" fill="#D97706"/><rect x="68" y="188" width="4" height="4" fill="#111827"/><rect x="72" y="188" width="8" height="4" fill="#D97706"/><rect x="40" y="192" width="40" height="4" fill="#D97706"/><rect x="44" y="196" width="32" height="4" fill="#D97706"/><rect x="44" y="200" width="32" height="4" fill="#D97706"/><rect x="80" y="200" width="4" height="4" fill="#D97706"/><rect x="44" y="204" width="32" height="4" fill="#D97706"/><rect x="80" y="204" width="8" height="4" fill="#D97706"/><rect x="44" y="208" width="32" height="4" fill="#D97706"/><rect x="80" y="208" width="4" height="4" fill="#D97706"/></g>
+<g class="cat-tail" shape-rendering="crispEdges">
+<rect x="84" y="200" width="8" height="4" fill="#D97706"/>
+<rect x="88" y="196" width="4" height="8" fill="#D97706"/>
+</g>
+<rect x="48" y="196" width="24" height="3" fill="#D61F69" shape-rendering="crispEdges"/>
+<g class="cat-eye" shape-rendering="crispEdges">
+<rect x="48" y="188" width="4" height="4" fill="#111827"/>
+<rect x="68" y="188" width="4" height="4" fill="#111827"/>
+</g>
+<g shape-rendering="crispEdges">
+<path d="M524 52 H872 V56 H876 V60 H880 V172 H876 V176 H872 V180 H524 V176 H520 V172 H516 V60 H520 V56 H524 Z" fill="#C9C2B2" opacity="0.9"/>
+<path d="M520 48 H868 V52 H872 V56 H876 V168 H872 V172 H868 V176 H520 V172 H516 V168 H512 V56 H516 V52 H520 Z" fill="#FFFFFF" stroke="#1E2433" stroke-width="2"/>
+<path d="M520 52 H868 V54 H870 V56 H872 V168 H870 V170 H868 V172 H520 V170 H518 V168 H516 V56 H518 V54 H520 Z" fill="none" stroke="#0066CC" stroke-width="1" opacity="0.35"/>
+<rect x="524" y="50" width="340" height="3" fill="#0066CC" opacity="0.9"/>
+<rect x="520" y="52" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+<rect x="864" y="52" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+<rect x="520" y="168" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+<rect x="864" y="168" width="4" height="4" fill="#0066CC" opacity="0.85"/>
+</g>
+<text x="532" y="72" font-size="11" fill="#0066CC" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="1.2">PLAYER 1 · READY</text>
+<text x="856" y="72" font-size="11" fill="#15803D" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="1">UTC-5</text>
+<g shape-rendering="crispEdges"><path d="M571 92h6v6h-6zM595 92h6v6h-6zM571 98h12v6h-12zM595 98h6v6h-6zM571 104h6v6h-6zM583 104h6v6h-6zM595 104h6v6h-6zM571 110h6v6h-6zM589 110h12v6h-12zM571 116h6v6h-6zM595 116h6v6h-6zM571 122h6v6h-6zM595 122h6v6h-6zM571 128h6v6h-6zM595 128h6v6h-6zM613 92h18v6h-18zM619 98h6v6h-6zM619 104h6v6h-6zM619 110h6v6h-6zM619 116h6v6h-6zM619 122h6v6h-6zM613 128h18v6h-18zM649 92h24v6h-24zM643 98h6v6h-6zM643 104h6v6h-6zM643 110h6v6h-6zM643 116h6v6h-6zM643 122h6v6h-6zM649 128h24v6h-24zM685 92h18v6h-18zM679 98h6v6h-6zM703 98h6v6h-6zM679 104h6v6h-6zM703 104h6v6h-6zM679 110h6v6h-6zM703 110h6v6h-6zM679 116h6v6h-6zM703 116h6v6h-6zM679 122h6v6h-6zM703 122h6v6h-6zM685 128h18v6h-18zM715 92h6v6h-6zM715 98h6v6h-6zM715 104h6v6h-6zM715 110h6v6h-6zM715 116h6v6h-6zM715 122h6v6h-6zM715 128h30v6h-30zM769 80h6v6h-6zM763 86h6v6h-6zM757 92h18v6h-18zM751 98h6v6h-6zM775 98h6v6h-6zM751 104h6v6h-6zM775 104h6v6h-6zM751 110h30v6h-30zM751 116h6v6h-6zM775 116h6v6h-6zM751 122h6v6h-6zM775 122h6v6h-6zM751 128h6v6h-6zM775 128h6v6h-6zM793 92h24v6h-24zM787 98h6v6h-6zM787 104h6v6h-6zM793 110h18v6h-18zM811 116h6v6h-6zM811 122h6v6h-6zM787 128h24v6h-24z" fill="#0066CC" class="glitch-cyan"/></g>
+<g shape-rendering="crispEdges"><path d="M571 92h6v6h-6zM595 92h6v6h-6zM571 98h12v6h-12zM595 98h6v6h-6zM571 104h6v6h-6zM583 104h6v6h-6zM595 104h6v6h-6zM571 110h6v6h-6zM589 110h12v6h-12zM571 116h6v6h-6zM595 116h6v6h-6zM571 122h6v6h-6zM595 122h6v6h-6zM571 128h6v6h-6zM595 128h6v6h-6zM613 92h18v6h-18zM619 98h6v6h-6zM619 104h6v6h-6zM619 110h6v6h-6zM619 116h6v6h-6zM619 122h6v6h-6zM613 128h18v6h-18zM649 92h24v6h-24zM643 98h6v6h-6zM643 104h6v6h-6zM643 110h6v6h-6zM643 116h6v6h-6zM643 122h6v6h-6zM649 128h24v6h-24zM685 92h18v6h-18zM679 98h6v6h-6zM703 98h6v6h-6zM679 104h6v6h-6zM703 104h6v6h-6zM679 110h6v6h-6zM703 110h6v6h-6zM679 116h6v6h-6zM703 116h6v6h-6zM679 122h6v6h-6zM703 122h6v6h-6zM685 128h18v6h-18zM715 92h6v6h-6zM715 98h6v6h-6zM715 104h6v6h-6zM715 110h6v6h-6zM715 116h6v6h-6zM715 122h6v6h-6zM715 128h30v6h-30zM769 80h6v6h-6zM763 86h6v6h-6zM757 92h18v6h-18zM751 98h6v6h-6zM775 98h6v6h-6zM751 104h6v6h-6zM775 104h6v6h-6zM751 110h30v6h-30zM751 116h6v6h-6zM775 116h6v6h-6zM751 122h6v6h-6zM775 122h6v6h-6zM751 128h6v6h-6zM775 128h6v6h-6zM793 92h24v6h-24zM787 98h6v6h-6zM787 104h6v6h-6zM793 110h18v6h-18zM811 116h6v6h-6zM811 122h6v6h-6zM787 128h24v6h-24z" fill="#D61F69" class="glitch-mag"/></g>
+<g shape-rendering="crispEdges"><path d="M574 95h6v6h-6zM598 95h6v6h-6zM574 101h12v6h-12zM598 101h6v6h-6zM574 107h6v6h-6zM586 107h6v6h-6zM598 107h6v6h-6zM574 113h6v6h-6zM592 113h12v6h-12zM574 119h6v6h-6zM598 119h6v6h-6zM574 125h6v6h-6zM598 125h6v6h-6zM574 131h6v6h-6zM598 131h6v6h-6zM616 95h18v6h-18zM622 101h6v6h-6zM622 107h6v6h-6zM622 113h6v6h-6zM622 119h6v6h-6zM622 125h6v6h-6zM616 131h18v6h-18zM652 95h24v6h-24zM646 101h6v6h-6zM646 107h6v6h-6zM646 113h6v6h-6zM646 119h6v6h-6zM646 125h6v6h-6zM652 131h24v6h-24zM688 95h18v6h-18zM682 101h6v6h-6zM706 101h6v6h-6zM682 107h6v6h-6zM706 107h6v6h-6zM682 113h6v6h-6zM706 113h6v6h-6zM682 119h6v6h-6zM706 119h6v6h-6zM682 125h6v6h-6zM706 125h6v6h-6zM688 131h18v6h-18zM718 95h6v6h-6zM718 101h6v6h-6zM718 107h6v6h-6zM718 113h6v6h-6zM718 119h6v6h-6zM718 125h6v6h-6zM718 131h30v6h-30zM772 83h6v6h-6zM766 89h6v6h-6zM760 95h18v6h-18zM754 101h6v6h-6zM778 101h6v6h-6zM754 107h6v6h-6zM778 107h6v6h-6zM754 113h30v6h-30zM754 119h6v6h-6zM778 119h6v6h-6zM754 125h6v6h-6zM778 125h6v6h-6zM754 131h6v6h-6zM778 131h6v6h-6zM796 95h24v6h-24zM790 101h6v6h-6zM790 107h6v6h-6zM796 113h18v6h-18zM814 119h6v6h-6zM814 125h6v6h-6zM790 131h24v6h-24z" fill="#0066CC"/><path d="M571 92h6v6h-6zM595 92h6v6h-6zM571 98h12v6h-12zM595 98h6v6h-6zM571 104h6v6h-6zM583 104h6v6h-6zM595 104h6v6h-6zM571 110h6v6h-6zM589 110h12v6h-12zM571 116h6v6h-6zM595 116h6v6h-6zM571 122h6v6h-6zM595 122h6v6h-6zM571 128h6v6h-6zM595 128h6v6h-6zM613 92h18v6h-18zM619 98h6v6h-6zM619 104h6v6h-6zM619 110h6v6h-6zM619 116h6v6h-6zM619 122h6v6h-6zM613 128h18v6h-18zM649 92h24v6h-24zM643 98h6v6h-6zM643 104h6v6h-6zM643 110h6v6h-6zM643 116h6v6h-6zM643 122h6v6h-6zM649 128h24v6h-24zM685 92h18v6h-18zM679 98h6v6h-6zM703 98h6v6h-6zM679 104h6v6h-6zM703 104h6v6h-6zM679 110h6v6h-6zM703 110h6v6h-6zM679 116h6v6h-6zM703 116h6v6h-6zM679 122h6v6h-6zM703 122h6v6h-6zM685 128h18v6h-18zM715 92h6v6h-6zM715 98h6v6h-6zM715 104h6v6h-6zM715 110h6v6h-6zM715 116h6v6h-6zM715 122h6v6h-6zM715 128h30v6h-30zM769 80h6v6h-6zM763 86h6v6h-6zM757 92h18v6h-18zM751 98h6v6h-6zM775 98h6v6h-6zM751 104h6v6h-6zM775 104h6v6h-6zM751 110h30v6h-30zM751 116h6v6h-6zM775 116h6v6h-6zM751 122h6v6h-6zM775 122h6v6h-6zM751 128h6v6h-6zM775 128h6v6h-6zM793 92h24v6h-24zM787 98h6v6h-6zM787 104h6v6h-6zM793 110h18v6h-18zM811 116h6v6h-6zM811 122h6v6h-6zM787 128h24v6h-24z" fill="#111827" class="hero-pulse"/></g>
+<line x1="532" y1="144" x2="856" y2="144" stroke="#1E2433" stroke-width="1.5"/>
+<rect x="634" y="143" width="120" height="3" fill="#D61F69" shape-rendering="crispEdges"/>
+<text x="694" y="163" font-size="10.5" fill="#475569" text-anchor="middle" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.7">NICOLÁS MONCADA MONTAÑO · 3ER SEMESTRE · UNIMINUTO</text>
+<rect x="120" y="224" width="596" height="12" fill="#A47247" stroke="#1E2433" stroke-width="2" shape-rendering="crispEdges"/>
+<rect x="122" y="226" width="592" height="3" fill="#C69464" shape-rendering="crispEdges"/>
+<rect x="128" y="236" width="580" height="16" fill="#7C5230" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<rect x="136" y="252" width="16" height="40" fill="#7C5230" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<rect x="684" y="252" width="16" height="40" fill="#7C5230" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<rect x="136" y="184" width="108" height="40" fill="#FFFFFF" stroke="#1E2433" stroke-width="2" shape-rendering="crispEdges"/>
+<rect x="140" y="188" width="100" height="4" fill="#C27803" opacity="0.85" shape-rendering="crispEdges"/>
+<g class="vinyl-spin">
+<circle cx="176" cy="206" r="14" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+<circle cx="176" cy="206" r="6" fill="#D61F69"/>
+<circle cx="176" cy="206" r="2" fill="#111827"/>
+<rect x="175" y="194" width="2" height="4" fill="#475569" shape-rendering="crispEdges"/>
+</g>
+<path d="M204 192 L204 206 L194 212" fill="none" stroke="#475569" stroke-width="2.5"/>
+<rect x="216" y="200" width="16" height="4" fill="#0066CC" shape-rendering="crispEdges"/>
+<rect x="216" y="208" width="16" height="4" fill="#15803D" shape-rendering="crispEdges"/>
+<g class="note-a"><g shape-rendering="crispEdges"><rect x="200" y="162" width="6" height="2" fill="#D61F69"/><rect x="200" y="164" width="2" height="2" fill="#D61F69"/><rect x="204" y="164" width="2" height="2" fill="#D61F69"/><rect x="200" y="166" width="2" height="2" fill="#D61F69"/><rect x="198" y="168" width="4" height="2" fill="#D61F69"/><rect x="196" y="170" width="6" height="2" fill="#D61F69"/><rect x="198" y="172" width="2" height="2" fill="#D61F69"/></g></g>
+<g class="note-b"><g shape-rendering="crispEdges"><rect x="218" y="168" width="6" height="2" fill="#0066CC"/><rect x="218" y="170" width="2" height="2" fill="#0066CC"/><rect x="222" y="170" width="2" height="2" fill="#0066CC"/><rect x="218" y="172" width="2" height="2" fill="#0066CC"/><rect x="216" y="174" width="4" height="2" fill="#0066CC"/><rect x="214" y="176" width="6" height="2" fill="#0066CC"/><rect x="216" y="178" width="2" height="2" fill="#0066CC"/></g></g>
+<rect x="288" y="112" width="208" height="100" fill="#D6D0C4" stroke="#1E2433" stroke-width="2" shape-rendering="crispEdges"/>
+<rect x="290" y="114" width="204" height="4" fill="#EFECE4" shape-rendering="crispEdges"/>
+<rect x="368" y="212" width="48" height="6" fill="#334155" shape-rendering="crispEdges"/>
+<rect x="352" y="218" width="80" height="6" fill="#D6D0C4" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<rect x="300" y="124" width="184" height="80" fill="#1E2433" shape-rendering="crispEdges"/>
+<rect x="304" y="128" width="176" height="72" fill="#0F172A" shape-rendering="crispEdges"/>
+<g clip-path="url(#hero_lightCrtClip)">
+<text x="312" y="144" font-size="10" fill="#38BDF8" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">$ whoami</text>
+<rect x="310" y="133" width="172" height="14" fill="#0F172A" class="curtain-1" shape-rendering="crispEdges"/>
+<text x="312" y="160" font-size="10" fill="#E6EDF3" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">&gt; nicolas</text>
+<rect x="310" y="149" width="172" height="14" fill="#0F172A" class="curtain-2" shape-rendering="crispEdges"/>
+<text x="312" y="176" font-size="10" fill="#FBBF24" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">$ cat pasion.txt</text>
+<rect x="310" y="165" width="172" height="14" fill="#0F172A" class="curtain-3" shape-rendering="crispEdges"/>
+<text x="312" y="192" font-size="10" fill="#4ADE80" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700">&gt; codigo + sistemas + arcade</text>
+<rect x="310" y="181" width="172" height="14" fill="#0F172A" class="curtain-4" shape-rendering="crispEdges"/>
+<rect x="304" y="128" width="176" height="3" fill="#0066CC" opacity="0.35" class="crt-sweep" shape-rendering="crispEdges"/>
+</g>
+<rect x="468" y="183" width="7" height="10" fill="#38BDF8" class="cursor-blink" shape-rendering="crispEdges"/>
+<rect x="480" y="206" width="4" height="4" fill="#15803D" class="led-pulse" shape-rendering="crispEdges"/>
+<rect x="300" y="220" width="184" height="12" fill="#334155" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<rect x="302" y="221" width="180" height="2" fill="#475569" shape-rendering="crispEdges"/>
+<rect x="308" y="224" width="8" height="4" fill="#0066CC" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:0.00s"/>
+<rect x="320" y="224" width="8" height="4" fill="#D61F69" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:0.16s"/>
+<rect x="332" y="224" width="8" height="4" fill="#C27803" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:0.32s"/>
+<rect x="344" y="224" width="8" height="4" fill="#15803D" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:0.48s"/>
+<rect x="356" y="224" width="8" height="4" fill="#0066CC" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:0.64s"/>
+<rect x="368" y="224" width="8" height="4" fill="#D61F69" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:0.80s"/>
+<rect x="380" y="224" width="8" height="4" fill="#C27803" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:0.96s"/>
+<rect x="392" y="224" width="8" height="4" fill="#15803D" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:1.12s"/>
+<rect x="404" y="224" width="8" height="4" fill="#0066CC" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:1.28s"/>
+<rect x="416" y="224" width="8" height="4" fill="#D61F69" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:1.44s"/>
+<rect x="428" y="224" width="8" height="4" fill="#C27803" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:1.60s"/>
+<rect x="440" y="224" width="8" height="4" fill="#15803D" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:1.76s"/>
+<rect x="452" y="224" width="8" height="4" fill="#0066CC" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:1.92s"/>
+<rect x="464" y="224" width="8" height="4" fill="#D61F69" class="rgb-key" shape-rendering="crispEdges" style="animation-delay:2.08s"/>
+<rect x="520" y="200" width="24" height="24" fill="#FFFFFF" stroke="#1E2433" stroke-width="2" shape-rendering="crispEdges"/>
+<rect x="522" y="202" width="20" height="3" fill="#F8FAFC" shape-rendering="crispEdges"/>
+<rect x="544" y="206" width="6" height="12" fill="#FFFFFF" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<rect x="526" y="210" width="12" height="4" fill="#D61F69" shape-rendering="crispEdges"/>
+<rect x="524" y="188" width="4" height="8" fill="#64748B" class="steam-a" shape-rendering="crispEdges"/>
+<rect x="532" y="186" width="4" height="8" fill="#64748B" class="steam-b" shape-rendering="crispEdges"/>
+<rect x="538" y="190" width="4" height="6" fill="#64748B" class="steam-c" shape-rendering="crispEdges"/>
+<rect x="748" y="184" width="124" height="108" fill="#1E293B" stroke="#1E2433" stroke-width="2" shape-rendering="crispEdges"/>
+<rect x="752" y="188" width="116" height="12" fill="#0066CC" shape-rendering="crispEdges"/>
+<text x="810" y="198" font-size="9.5" fill="#FFFFFF" text-anchor="middle" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="1.6">ARCADE</text>
+<rect x="758" y="204" width="104" height="44" fill="#0B1324" stroke="#334155" stroke-width="1.5" shape-rendering="crispEdges"/>
+<g clip-path="url(#hero_lightCabClip)" shape-rendering="crispEdges">
+<g class="invader-patrol">
+<g shape-rendering="crispEdges"><rect x="771" y="210" width="3" height="3" fill="#D61F69"/><rect x="783" y="210" width="3" height="3" fill="#D61F69"/><rect x="774" y="213" width="9" height="3" fill="#D61F69"/><rect x="771" y="216" width="15" height="3" fill="#D61F69"/><rect x="768" y="219" width="6" height="3" fill="#D61F69"/><rect x="777" y="219" width="3" height="3" fill="#D61F69"/><rect x="783" y="219" width="6" height="3" fill="#D61F69"/><rect x="768" y="222" width="3" height="3" fill="#D61F69"/><rect x="774" y="222" width="3" height="3" fill="#D61F69"/><rect x="780" y="222" width="3" height="3" fill="#D61F69"/><rect x="786" y="222" width="3" height="3" fill="#D61F69"/></g>
+<g shape-rendering="crispEdges"><rect x="799" y="224" width="3" height="3" fill="#0066CC"/><rect x="811" y="224" width="3" height="3" fill="#0066CC"/><rect x="802" y="227" width="9" height="3" fill="#0066CC"/><rect x="799" y="230" width="15" height="3" fill="#0066CC"/><rect x="796" y="233" width="6" height="3" fill="#0066CC"/><rect x="805" y="233" width="3" height="3" fill="#0066CC"/><rect x="811" y="233" width="6" height="3" fill="#0066CC"/><rect x="796" y="236" width="3" height="3" fill="#0066CC"/><rect x="802" y="236" width="3" height="3" fill="#0066CC"/><rect x="808" y="236" width="3" height="3" fill="#0066CC"/><rect x="814" y="236" width="3" height="3" fill="#0066CC"/></g>
+</g>
+<rect x="798" y="240" width="16" height="4" fill="#15803D"/>
+</g>
+<rect x="744" y="252" width="132" height="10" fill="#0066CC" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<rect x="760" y="248" width="4" height="6" fill="#C27803" shape-rendering="crispEdges"/>
+<rect x="828" y="255" width="6" height="4" fill="#D61F69" shape-rendering="crispEdges"/>
+<rect x="840" y="255" width="6" height="4" fill="#0066CC" shape-rendering="crispEdges"/>
+<rect x="784" y="268" width="52" height="20" fill="#E8E2D4" stroke="#1E2433" stroke-width="1.5" shape-rendering="crispEdges"/>
+<rect x="796" y="274" width="8" height="8" fill="#C27803" class="led-pulse" shape-rendering="crispEdges"/>
+<rect x="816" y="274" width="8" height="8" fill="#C27803" class="led-pulse" shape-rendering="crispEdges"/>
+<rect x="0" y="0" width="900" height="36" fill="#E8E2D4" shape-rendering="crispEdges"/>
+<line x1="0" y1="36" x2="900" y2="36" stroke="#1E2433" stroke-width="2"/>
+<rect x="0" y="34" width="900" height="2" fill="#0066CC" opacity="0.65" shape-rendering="crispEdges"/>
+<g shape-rendering="crispEdges"><rect x="16.5" y="10" width="5" height="2.5" fill="#D61F69"/><rect x="24" y="10" width="5" height="2.5" fill="#D61F69"/><rect x="14" y="12.5" width="17.5" height="2.5" fill="#D61F69"/><rect x="14" y="15" width="17.5" height="2.5" fill="#D61F69"/><rect x="16.5" y="17.5" width="12.5" height="2.5" fill="#D61F69"/><rect x="19" y="20" width="7.5" height="2.5" fill="#D61F69"/><rect x="21.5" y="22.5" width="2.5" height="2.5" fill="#D61F69"/></g>
+<text x="38" y="23" font-size="12.5" fill="#111827" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="1">P1 · NICOLÁS</text>
+<rect x="192" y="14" width="8" height="8" fill="#15803D" class="led-pulse" shape-rendering="crispEdges"/>
+<text x="208" y="23" font-size="12" fill="#15803D" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="1">ONLINE</text>
+<text x="308" y="23" font-size="12" fill="#0066CC" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.8">CLASS: SYS.ENG</text>
+<text x="532" y="23" font-size="12" fill="#C27803" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="1">XP</text>
+<g shape-rendering="crispEdges"><rect x="558" y="12" width="12" height="12" fill="#C27803"/><rect x="558" y="12" width="12" height="3" fill="#FFFFFF" opacity="0.35"/><rect x="558" y="22" width="12" height="2" fill="#000000" opacity="0.2"/><rect x="573" y="12" width="12" height="12" fill="#C27803"/><rect x="573" y="12" width="12" height="3" fill="#FFFFFF" opacity="0.35"/><rect x="573" y="22" width="12" height="2" fill="#000000" opacity="0.2"/><rect x="588" y="12" width="12" height="12" fill="#C27803"/><rect x="588" y="12" width="12" height="3" fill="#FFFFFF" opacity="0.35"/><rect x="588" y="22" width="12" height="2" fill="#000000" opacity="0.2"/><rect x="603" y="12" width="12" height="12" fill="#C27803"/><rect x="603" y="12" width="12" height="3" fill="#FFFFFF" opacity="0.35"/><rect x="603" y="22" width="12" height="2" fill="#000000" opacity="0.2"/><rect x="618" y="12" width="12" height="12" fill="#C27803"/><rect x="618" y="12" width="12" height="3" fill="#FFFFFF" opacity="0.35"/><rect x="618" y="22" width="12" height="2" fill="#000000" opacity="0.2"/><rect x="633" y="12" width="12" height="12" fill="#C27803"/><rect x="633" y="12" width="12" height="3" fill="#FFFFFF" opacity="0.35"/><rect x="633" y="22" width="12" height="2" fill="#000000" opacity="0.2"/><rect x="648" y="12" width="12" height="12" fill="#C27803"/><rect x="648" y="12" width="12" height="3" fill="#FFFFFF" opacity="0.35"/><rect x="648" y="22" width="12" height="2" fill="#000000" opacity="0.2"/><rect x="663" y="12" width="12" height="12" fill="#C27803"/><rect x="663" y="12" width="12" height="3" fill="#FFFFFF" opacity="0.35"/><rect x="663" y="22" width="12" height="2" fill="#000000" opacity="0.2"/><rect x="678" y="12" width="12" height="12" fill="#E2DDD1" stroke="#B8B1A2" stroke-width="1"/><rect x="693" y="12" width="12" height="12" fill="#E2DDD1" stroke="#B8B1A2" stroke-width="1"/><rect x="708" y="12" width="12" height="12" fill="#E2DDD1" stroke="#B8B1A2" stroke-width="1"/><rect x="723" y="12" width="12" height="12" fill="#E2DDD1" stroke="#B8B1A2" stroke-width="1"/></g>
+<rect x="678" y="12" width="12" height="12" fill="#0066CC" class="xp-shimmer" shape-rendering="crispEdges"/>
+<text x="882" y="23" font-size="12" fill="#475569" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="1">LVL 03</text>
+<rect x="0" y="332" width="900" height="28" fill="#E8E2D4" shape-rendering="crispEdges"/>
+<line x1="0" y1="332" x2="900" y2="332" stroke="#1E2433" stroke-width="2"/>
+<text x="16" y="350" font-size="11" fill="#475569" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.8">BOGOTÁ, COLOMBIA · UTC-5</text>
+<text x="450" y="350" font-size="11" fill="#0066CC" text-anchor="middle" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.8">IA · CIBERSEGURIDAD · DISEÑO · CÓDIGO</text>
+<text x="884" y="350" font-size="11" fill="#D61F69" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.8">NICOLÁS.OS</text>
+<rect x="0" y="0" width="900" height="360" fill="url(#hero_lightScan)" shape-rendering="crispEdges"/>
+<rect x="1" y="1" width="898" height="358" fill="none" stroke="#1E2433" stroke-width="2" shape-rendering="crispEdges"/>
+</svg>
