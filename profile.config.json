@@ -1,0 +1,192 @@
+{
+  "github_username": "Nicolas-Moncada",
+  "previous_logins": [
+    "nicolasmoncada160622-prog"
+  ],
+  "profile_repos_to_exclude": [
+    "Nicolas-Moncada",
+    "Perfil",
+    "nicolasmoncada160622-prog"
+  ],
+  "display_name": "NICOLÁS",
+  "full_name": "Nicolás Moncada Montaño",
+  "handle": "NICOLÁS.OS",
+  "class_tag": "SYS.ENG",
+  "role": "Estudiante de Ingeniería de Sistemas",
+  "semester": "3er semestre · UNIMINUTO",
+  "location": "Bogotá, Colombia",
+  "timezone_label": "UTC-5",
+  "age": 20,
+  "tagline": "Código, sistemas, IA y estética arcade 16-bit.",
+  "bio": [
+    "Tengo 20 años, vivo en Bogotá y estudio Ingeniería de Sistemas en UNIMINUTO (3er semestre). Uso IA a diario en nivel intermedio y aplico vibe coding para agilizar mi flujo sin saltarme los fundamentos.",
+    "Me atraen el desarrollo backend, el IoT, la ciberseguridad y el diseño visual. Programo para resolver problemas concretos y construir proyectos claros y escalables."
+  ],
+  "mission": "Convertir lo que aprendo en proyectos útiles, claros y escalables.",
+  "terminal_lines": [
+    "$ whoami",
+    "> nicolas",
+    "$ cat pasion.txt",
+    "> codigo + sistemas + arcade"
+  ],
+  "attributes": [
+    {
+      "icon": "ai",
+      "name": "IA Aplicada",
+      "detail": "Uso diario en flujo de trabajo",
+      "level": "INTERMEDIO",
+      "accent": "cyan"
+    },
+    {
+      "icon": "flow",
+      "name": "Vibe Coding",
+      "detail": "Prototipado ágil con fundamentos",
+      "level": "EN PRÁCTICA",
+      "accent": "magenta"
+    },
+    {
+      "icon": "shield",
+      "name": "Ciberseguridad",
+      "detail": "Redes, buenas prácticas y CTF",
+      "level": "APRENDIENDO",
+      "accent": "amber"
+    },
+    {
+      "icon": "design",
+      "name": "Diseño & UI",
+      "detail": "Pixel art, SVG y diseño visual",
+      "level": "EN PRÁCTICA",
+      "accent": "green"
+    }
+  ],
+  "stack": [
+    {
+      "name": "Python",
+      "level": "INTERMEDIO",
+      "segments": 5,
+      "accent": "cyan",
+      "icon": "code"
+    },
+    {
+      "name": "JavaScript",
+      "level": "EN PRÁCTICA",
+      "segments": 4,
+      "accent": "amber",
+      "icon": "code"
+    },
+    {
+      "name": "HTML / CSS",
+      "level": "EN PRÁCTICA",
+      "segments": 4,
+      "accent": "magenta",
+      "icon": "design"
+    },
+    {
+      "name": "SQL",
+      "level": "APRENDIENDO",
+      "segments": 3,
+      "accent": "green",
+      "icon": "db"
+    },
+    {
+      "name": "PHP",
+      "level": "APRENDIENDO",
+      "segments": 2,
+      "accent": "purple",
+      "icon": "code"
+    },
+    {
+      "name": "Git / Actions",
+      "level": "EN PRÁCTICA",
+      "segments": 4,
+      "accent": "cyan",
+      "icon": "flow"
+    }
+  ],
+  "interests": [
+    "Videojuegos",
+    "Música",
+    "Backend & IoT",
+    "IA",
+    "Ciberseguridad",
+    "Diseño"
+  ],
+  "lab": {
+    "max_cards": 4,
+    "featured_repos": [],
+    "repo_descriptions": {}
+  },
+  "contact": {
+    "links": [
+      {
+        "id": "github",
+        "label": "GITHUB",
+        "sublabel": "@Nicolas-Moncada",
+        "url": "https://github.com/Nicolas-Moncada",
+        "accent": "cyan",
+        "icon": "github"
+      }
+    ],
+    "optional_fields": {
+      "linkedin": "",
+      "portfolio": "",
+      "email": "",
+      "x": "",
+      "discord": ""
+    }
+  },
+  "palettes": {
+    "dark": {
+      "name": "Midnight Arcade",
+      "bg": "#0B0E17",
+      "bg_deep": "#070910",
+      "card": "#131826",
+      "card_alt": "#181F31",
+      "border": "#26304A",
+      "border_hi": "#3B4B73",
+      "cyan": "#00F0FF",
+      "magenta": "#FF2A85",
+      "amber": "#FFB800",
+      "green": "#39FF14",
+      "blue": "#60A5FA",
+      "purple": "#9D6BFF",
+      "text": "#E6EDF3",
+      "text_muted": "#94A3B8",
+      "text_dim": "#64748B",
+      "shadow": "#04060C",
+      "heat": [
+        "#161D2F",
+        "#0E4B5A",
+        "#0091A6",
+        "#FFB800",
+        "#FF2A85"
+      ]
+    },
+    "light": {
+      "name": "Retro Cartridge",
+      "bg": "#F4F1EA",
+      "bg_deep": "#E8E2D4",
+      "card": "#FFFFFF",
+      "card_alt": "#F9F7F2",
+      "border": "#1E2433",
+      "border_hi": "#334155",
+      "cyan": "#0066CC",
+      "magenta": "#D61F69",
+      "amber": "#C27803",
+      "green": "#15803D",
+      "blue": "#1D4ED8",
+      "purple": "#6D28D9",
+      "text": "#111827",
+      "text_muted": "#475569",
+      "text_dim": "#64748B",
+      "shadow": "#C9C2B2",
+      "heat": [
+        "#E5DFD2",
+        "#BAE6FD",
+        "#0284C7",
+        "#C27803",
+        "#D61F69"
+      ]
+    }
+  }
+}
