@@ -127,7 +127,7 @@ Me atraen el desarrollo backend, el IoT, la ciberseguridad y el diseño visual. 
 | :--- | :--- | :---: | :--- |
 | [pagina-web](https://github.com/Nicolas-Moncada/pagina-web) | PHP | — | Proyecto pagina web |
 | [Bot](https://github.com/Nicolas-Moncada/Bot) | Python | — | Repositorio público en desarrollo |
-| [avion](https://github.com/Nicolas-Moncada/avion) | JavaScript | ★ 1 | Repositorio público en desarrollo |
+| [avion](https://github.com/Nicolas-Moncada/avion) | JavaScript | — | Repositorio público en desarrollo |
 
 </details>
 
@@ -157,7 +157,7 @@ Me atraen el desarrollo backend, el IoT, la ciberseguridad y el diseño visual. 
 - **Racha actual:** 2 días (mejor racha: 3)
 - **Días activos:** 14
 - **Repositorios públicos:** 4
-- **Última sincronización:** `2026-11-25 18:30 UTC`
+- **Última sincronización:** `2026-11-26 07:26 UTC`
 
 </details>
 
@@ -187,10 +187,10 @@ Me atraen el desarrollo backend, el IoT, la ciberseguridad y el diseño visual. 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
-  <img src="./assets/footer-dark.svg" width="100%" alt="Insert Coin — Gracias por jugar · Sync 2026-11-25 18:30 UTC" />
+  <img src="./assets/footer-dark.svg" width="100%" alt="Insert Coin — Gracias por jugar · Sync 2026-11-26 07:26 UTC" />
 </picture>
 </div>
 
 <div align="center">
-  <sub><!-- LAST_ACTIVE_START -->⚡ <b>Profile Engine v2.0</b> · 83 contribuciones · 14 días activos · racha 2 · 4 repos públicos · sync 25 NOV 2026 · 13:30 COT<!-- LAST_ACTIVE_END --></sub>
+  <sub><!-- LAST_ACTIVE_START -->⚡ <b>Profile Engine v2.0</b> · 83 contribuciones · 14 días activos · racha 2 · 4 repos públicos · sync 26 NOV 2026 · 02:26 COT<!-- LAST_ACTIVE_END --></sub>
 </div>

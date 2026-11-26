@@ -2,8 +2,8 @@
   "status": "active",
   "engine": "profile-engine-v2",
   "timezone": "America/Bogota",
-  "last_sync_local": "25 NOV 2026 · 13:30 COT",
-  "last_sync_utc": "2026-11-25T18:30:52Z",
+  "last_sync_local": "26 NOV 2026 · 02:26 COT",
+  "last_sync_utc": "2026-11-26T07:26:37Z",
   "source": "graphql",
   "profile": {
     "login": "Nicolas-Moncada",
@@ -15,7 +15,7 @@
     "pull_requests": 0,
     "issues": 0,
     "public_repos": 4,
-    "days_on_github": 87,
+    "days_on_github": 88,
     "account_created": "2026-08-31"
   },
   "data_policy": "public GitHub data only; no invented metrics"

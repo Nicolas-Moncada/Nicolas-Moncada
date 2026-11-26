@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436 206" width="100%" role="img" aria-labelledby="lab2_darkTitle lab2_darkDesc">
 <title id="lab2_darkTitle">Cartucho de proyecto: Bot</title>
-<desc id="lab2_darkDesc">Repositorio Bot en Python. Actualizado hace 16h.</desc>
+<desc id="lab2_darkDesc">Repositorio Bot en Python. Actualizado ayer.</desc>
 <defs>
 <pattern id="lab2_darkBg" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#131826"/><rect x="0" y="0" width="4" height="4" fill="#181F31"/></pattern>
 <pattern id="lab2_darkScan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#FFFFFF" opacity="0.065"/></pattern>
@@ -31,7 +31,7 @@
 <text x="24" y="104" font-size="12.5" fill="#94A3B8" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace">Proyecto público en GitHub · código y</text>
 <text x="24" y="124" font-size="12.5" fill="#94A3B8" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace">pruebas.</text>
 <line x1="24" y1="148" x2="408" y2="148" stroke="#26304A" stroke-width="1.5"/>
-<text x="24" y="173" font-size="11" fill="#64748B" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.5">UPD: HACE 16H</text>
+<text x="24" y="173" font-size="11" fill="#64748B" text-anchor="start" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.5">UPD: AYER</text>
 <text x="392" y="173" font-size="11.5" fill="#00F0FF" text-anchor="end" font-family="ui-monospace, &#x27;Cascadia Code&#x27;, &#x27;Fira Code&#x27;, &#x27;Consolas&#x27;, monospace" font-weight="700" letter-spacing="0.8" class="cart-blink">PRESS START</text>
 <g class="cart-blink">
 <g shape-rendering="crispEdges"><rect x="398" y="162" width="2.5" height="2.5" fill="#00F0FF"/><rect x="398" y="164.5" width="5" height="2.5" fill="#00F0FF"/><rect x="398" y="167" width="7.5" height="2.5" fill="#00F0FF"/><rect x="398" y="169.5" width="5" height="2.5" fill="#00F0FF"/><rect x="398" y="172" width="2.5" height="2.5" fill="#00F0FF"/></g>
