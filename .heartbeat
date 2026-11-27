@@ -2,8 +2,8 @@
   "status": "active",
   "engine": "profile-engine-v2",
   "timezone": "America/Bogota",
-  "last_sync_local": "27 NOV 2026 · 02:23 COT",
-  "last_sync_utc": "2026-11-27T07:23:36Z",
+  "last_sync_local": "27 NOV 2026 · 12:56 COT",
+  "last_sync_utc": "2026-11-27T17:56:00Z",
   "source": "graphql",
   "profile": {
     "login": "Nicolas-Moncada",
