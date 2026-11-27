@@ -145,7 +145,7 @@ Me atraen el desarrollo backend, el IoT, la ciberseguridad y el diseño visual. 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/contributions-light.svg" />
-  <img src="./assets/contributions-dark.svg" width="100%" alt="Mapa de calor pixel de contribuciones de Nicolas-Moncada: 83 contribuciones, 14 días activos, racha 2 y 4 repositorios públicos." />
+  <img src="./assets/contributions-dark.svg" width="100%" alt="Mapa de calor pixel de contribuciones de Nicolas-Moncada: 83 contribuciones, 14 días activos, racha 0 y 4 repositorios públicos." />
 </picture>
 </div>
 
@@ -154,10 +154,10 @@ Me atraen el desarrollo backend, el IoT, la ciberseguridad y el diseño visual. 
 
 - **Usuario:** `@Nicolas-Moncada`
 - **Contribuciones (año):** 83
-- **Racha actual:** 2 días (mejor racha: 3)
+- **Racha actual:** 0 días (mejor racha: 3)
 - **Días activos:** 14
 - **Repositorios públicos:** 4
-- **Última sincronización:** `2026-11-26 18:13 UTC`
+- **Última sincronización:** `2026-11-27 07:23 UTC`
 
 </details>
 
@@ -187,10 +187,10 @@ Me atraen el desarrollo backend, el IoT, la ciberseguridad y el diseño visual. 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
-  <img src="./assets/footer-dark.svg" width="100%" alt="Insert Coin — Gracias por jugar · Sync 2026-11-26 18:13 UTC" />
+  <img src="./assets/footer-dark.svg" width="100%" alt="Insert Coin — Gracias por jugar · Sync 2026-11-27 07:23 UTC" />
 </picture>
 </div>
 
 <div align="center">
-  <sub><!-- LAST_ACTIVE_START -->⚡ <b>Profile Engine v2.0</b> · 83 contribuciones · 14 días activos · racha 2 · 4 repos públicos · sync 26 NOV 2026 · 13:13 COT<!-- LAST_ACTIVE_END --></sub>
+  <sub><!-- LAST_ACTIVE_START -->⚡ <b>Profile Engine v2.0</b> · 83 contribuciones · 14 días activos · racha 0 · 4 repos públicos · sync 27 NOV 2026 · 02:23 COT<!-- LAST_ACTIVE_END --></sub>
 </div>
